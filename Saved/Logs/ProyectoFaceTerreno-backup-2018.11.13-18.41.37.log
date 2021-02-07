@@ -1,0 +1,1428 @@
+﻿Log file open, 10/24/18 04:07:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProyectoFaceTerreno
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.192343
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.172s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz, GPU: NVIDIA GeForce GT 430
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.24-09.07.44:262][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-09.07.44:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.24-09.07.44:280][  0]LogHAL: Display: Platform has ~ 7 GB [7304781824 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.24-09.07.44:280][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.24-09.07.44:280][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.24-09.07.44:280][  0]LogInit: Computer: DESKTOP-DDT5E5J
+[2018.10.24-09.07.44:280][  0]LogInit: User: Familia
+[2018.10.24-09.07.44:280][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.10.24-09.07.44:280][  0]LogInit: High frequency timer resolution =3.117190 MHz
+[2018.10.24-09.07.44:281][  0]LogMemory: Memory total: Physical=6.8GB (7GB approx)
+[2018.10.24-09.07.44:281][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.24-09.07.44:281][  0]LogMemory: Process Physical Memory: 99.65 MB used, 99.65 MB peak
+[2018.10.24-09.07.44:281][  0]LogMemory: Process Virtual Memory: 90.07 MB used, 90.07 MB peak
+[2018.10.24-09.07.44:281][  0]LogMemory: Physical Memory: 4154.30 MB used,  2812.08 MB free, 6966.38 MB total
+[2018.10.24-09.07.44:281][  0]LogMemory: Virtual Memory: 4627.02 MB used,  2812.08 MB free, 134217728.00 MB total
+[2018.10.24-09.07.44:307][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.10.24-09.07.44:307][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.10.24-09.07.44:881][  0]LogStreaming: Display: Took  0.574s to InitEngineTextLocalization.
+[2018.10.24-09.07.44:881][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.24-09.07.45:104][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.24-09.07.45:104][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.24-09.07.45:414][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.24-09.07.45:414][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.24-09.07.45:460][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 430' (Feature Level 11_0)
+[2018.10.24-09.07.45:460][  0]LogD3D11RHI:       979/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.24-09.07.45:468][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2018.10.24-09.07.45:468][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.24-09.07.45:473][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.24-09.07.45:473][  0]LogD3D11RHI:       0/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.24-09.07.45:473][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.24-09.07.45:481][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.24-09.07.45:481][  0]LogD3D11RHI:     GPU DeviceId: 0xde1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.24-09.07.45:481][  0]LogWindows: EnumDisplayDevices:
+[2018.10.24-09.07.45:482][  0]LogWindows:    0. 'NVIDIA GeForce GT 430' (P:1 D:1)
+[2018.10.24-09.07.45:482][  0]LogWindows:    1. 'NVIDIA GeForce GT 430' (P:0 D:0)
+[2018.10.24-09.07.45:482][  0]LogWindows:    2. 'Intel(R) HD Graphics' (P:0 D:0)
+[2018.10.24-09.07.45:482][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2018.10.24-09.07.45:482][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 430
+[2018.10.24-09.07.45:482][  0]LogD3D11RHI:   Driver Version: 375.57 (internal:21.21.13.7557, unified:375.57)
+[2018.10.24-09.07.45:482][  0]LogD3D11RHI:      Driver Date: 10-18-2016
+[2018.10.24-09.07.45:482][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2018.10.24-09.07.45:508][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.10.24-09.07.45:508][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.24-09.07.45:527][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.24-09.07.45:579][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Intermediate/Shaders/WorkingDirectory/5316/).
+[2018.10.24-09.07.45:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Familia/AppData/Local/Temp/UnrealShaderWorkingDir/264311BA496E0CD46361B4A9C03E15E5/'.
+[2018.10.24-09.07.46:152][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.24-09.07.46:177][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.24-09.07.46:199][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.24-09.07.46:223][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.24-09.07.46:241][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.24-09.07.46:264][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.24-09.07.46:281][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.24-09.07.46:302][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.24-09.07.46:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-09.07.46:431][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.24-09.07.46:507][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-09.07.46:507][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-09.07.46:546][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-09.07.46:546][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-09.07.46:564][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.24-09.07.46:582][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.24-09.07.46:601][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.24-09.07.46:620][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.24-09.07.46:633][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.24-09.07.46:633][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.24-09.07.46:697][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.24-09.07.46:698][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.24-09.07.46:698][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.24-09.07.47:858][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.24-09.07.47:981][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-09.07.47:982][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.24-09.07.47:982][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.24-09.07.47:982][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.24-09.07.47:982][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.24-09.07.47:982][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.24-09.07.48:006][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.24-09.07.48:018][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Familia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.24-09.07.48:018][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.24-09.07.48:018][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.24-09.07.48:049][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.24-09.07.48:051][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.24-09.07.48:052][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.24-09.07.48:160][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2018.10.24-09.07.48:743][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-09.07.48:944][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.24-09.07.48:947][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.24-09.07.48:947][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.24-09.07.48:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.24-09.07.48:947][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.24-09.07.48:968][  0]LogNetVersion: ProyectoFaceTerreno 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 396919257)
+[2018.10.24-09.07.49:741][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.092039 seconds
+[2018.10.24-09.07.49:751][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.24-09.07.49:751][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.24-09.07.49:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.24-09.07.50:977][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.24-09.07.50:994][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.24-09.07.51:189][  0]SourceControl: Source control is disabled
+[2018.10.24-09.07.51:189][  0]SourceControl: Source control is disabled
+[2018.10.24-09.07.51:191][  0]SourceControl: Source control is disabled
+[2018.10.24-09.07.51:192][  0]SourceControl: Source control is disabled
+[2018.10.24-09.07.51:407][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.24-09.07.51:490][  0]LogOcInput: OculusInput pre-init called
+[2018.10.24-09.07.51:577][  0]LogEngine: Initializing Engine...
+[2018.10.24-09.07.51:578][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.24-09.07.51:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-09.07.51:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-09.07.51:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-09.07.51:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-09.07.51:927][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.24-09.07.51:947][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.24-09.07.51:971][  0]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.07.51:984][  0]LogInit: FAudioDevice initialized.
+[2018.10.24-09.07.51:984][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.24-09.07.52:577][  0]LogDerivedDataCache: Saved boot cache 0.59s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-09.07.52:595][  0]LogInit: Texture streaming: Enabled
+[2018.10.24-09.07.52:620][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.24-09.07.52:635][  0]LogInit: Transaction tracking system initialized
+[2018.10.24-09.07.52:658][  0]BlueprintLog: New page: Editor Load
+[2018.10.24-09.07.52:744][  0]LocalizationService: Localization service is disabled
+[2018.10.24-09.07.53:171][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.24-09.07.53:172][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.24-09.07.53:172][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.24-09.07.53:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-09.07.53:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-09.07.53:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-09.07.53:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-09.07.53:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/' took 0.02s
+[2018.10.24-09.07.53:351][  0]SourceControl: Source control is disabled
+[2018.10.24-09.07.53:351][  0]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.07.53:352][  0]LightingResults: New page: Lighting Build
+[2018.10.24-09.07.53:355][  0]MapCheck: New page: Map Check
+[2018.10.24-09.07.53:355][  0]LightingResults: New page: Lighting Build
+[2018.10.24-09.07.53:961][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.24-09.07.53:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.07.54:016][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.07.54:101][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.094ms to complete.
+[2018.10.24-09.07.54:101][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.750
+[2018.10.24-09.07.54:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.07.54:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.07.54:238][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.07.54:250][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.07.54:256][  0]LogCollectionManager: Loaded 0 collections in 0.001293 seconds
+[2018.10.24-09.07.54:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Collections/' took 0.01s
+[2018.10.24-09.07.54:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Developers/Familia/Collections/' took 0.01s
+[2018.10.24-09.07.54:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Collections/' took 0.01s
+[2018.10.24-09.07.54:299][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.24-09.07.54:314][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2572 classes and 603 folders.
+[2018.10.24-09.07.54:321][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.24-09.07.54:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.24-09.07.54:386][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.24-09.07.54:410][  0]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.24-09.07.54:418][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.24-09.07.54:424][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.24-09.07.54:549][  0]LogRenderer: Reallocating scene render targets to support 1252x692 Format 10 NumSamples 1 (Frame:1).
+[2018.10.24-09.07.54:822][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.24-09.07.54:822][  0]LogLoad: (Engine Initialization) Total time: 12.70 seconds
+[2018.10.24-09.07.54:822][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.24-09.07.54:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.24-09.07.54:958][  2]LogAssetRegistry: Asset discovery search completed in 6.8226 seconds
+[2018.10.24-09.07.54:960][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.24-09.07.54:961][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
+[2018.10.24-09.07.57:462][  4]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.24-09.07.59:157][  9]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.24-09.13.11:471][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.13.20:067][158]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-09.13.20:069][158]LogMaterial: Warning: Material /Game/Modelos/pasto/PastoNaranja/grass_mat2.grass_mat2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.10.24-09.13.20:072][158]LogMaterial: Display: Missing cached shader map for material grass_mat2, compiling. 
+[2018.10.24-09.13.20:174][158]MapCheck: Warning: grass_mat2 Material /Game/Modelos/pasto/PastoNaranja/grass_mat2.grass_mat2 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.10.24-09.13.20:185][158]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.10.24-09.13.20:185][158]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.10.24-09.13.20:185][158]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.10.24-09.13.20:239][158]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Centro.Centro
+[2018.10.24-09.13.20:267][158]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.13.20:267][158]LightingResults: New page: Lighting Build
+[2018.10.24-09.13.20:268][158]LoadErrors: New page: Loading map: Centro.umap
+[2018.10.24-09.13.20:270][158]MapCheck: New page: Map Check
+[2018.10.24-09.13.20:270][158]LightingResults: New page: Lighting Build
+[2018.10.24-09.13.20:334][158]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.13.20:550][158]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.13.20:690][158]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.55ms to complete.
+[2018.10.24-09.13.20:690][158]LogFileHelpers: Loading map 'Centro' took 0.425
+[2018.10.24-09.13.22:262][193]LogSlate: Window 'Message Log' being destroyed
+[2018.10.24-09.13.22:276][193]LogSlate: Window 'Message Log' being destroyed
+[2018.10.24-09.13.25:431][269]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.24-09.13.25:453][269]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.24-09.13.25:536][270]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.24-09.13.30:023][319]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.24-09.13.30:571][327]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.24-09.13.33:067][360]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.24-09.15.42:349][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.24-09.17.23:276][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.17.24:872][547]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.10.24-09.17.44:564][747]LogMaterial: Warning: Material /Game/Modelos/arboles/ArbolAmarillo/tree_mango_trunk_mat.tree_mango_trunk_mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.10.24-09.17.44:567][747]LogMaterial: Display: Missing cached shader map for material tree_mango_trunk_mat, compiling. 
+[2018.10.24-09.17.44:600][747]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.24-09.17.44:600][747]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.24-09.17.44:600][747]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.24-09.17.44:601][747]LogMaterial: Warning: Material /Game/Modelos/arboles/ArbolAmarillo/tree_mango_leaves_mat.tree_mango_leaves_mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.10.24-09.17.44:604][747]LogMaterial: Display: Missing cached shader map for material tree_mango_leaves_mat, compiling. 
+[2018.10.24-09.17.50:477][862]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.10.24-09.17.50:477][862]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.10.24-09.17.53:814][907]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.10.24-09.17.54:915][922]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.10.24-09.17.56:758][947]Cmd: TRANSACTION UNDO
+[2018.10.24-09.17.56:758][947]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.17.59:202][  8]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.24-09.18.00:460][ 17]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.24-09.18.00:460][ 17]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.24-09.18.02:559][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.18.05:661][ 72]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.24-09.18.07:111][ 94]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.24-09.18.07:421][ 98]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.24-09.18.10:977][150]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.24-09.18.33:499][448]Cmd: TRANSACTION UNDO
+[2018.10.24-09.18.33:499][448]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.18.33:819][451]Cmd: TRANSACTION UNDO
+[2018.10.24-09.18.33:819][451]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.18.36:630][527]Cmd: TRANSACTION UNDO
+[2018.10.24-09.18.36:630][527]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.18.47:023][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.18.51:234][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.19.08:762][ 29]Cmd: TRANSACTION UNDO
+[2018.10.24-09.19.08:762][ 29]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.19.10:150][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.19.22:562][252]Cmd: TRANSACTION UNDO
+[2018.10.24-09.19.22:562][252]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.19.23:476][308]Cmd: TRANSACTION UNDO
+[2018.10.24-09.19.23:476][308]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.19.29:075][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.19.36:020][449]Cmd: TRANSACTION UNDO
+[2018.10.24-09.19.36:020][449]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.19.37:546][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.19.59:691][810]Cmd: TRANSACTION UNDO
+[2018.10.24-09.19.59:691][810]LogEditorTransaction: Undo Foliage Editing
+[2018.10.24-09.20.02:540][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.20.38:537][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.20.56:967][645]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelos/pasto/PastoVerde/pastoVerde.pastoVerde
+[2018.10.24-09.20.57:742][645]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2018.10.24-09.20.57:742][645]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.24-09.21.36:981][794]LogSlate: Window 'pastoVerde' being destroyed
+[2018.10.24-09.21.42:510][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.21.45:240][870]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelos/pasto/PastoNaranja/pastoNaranja.pastoNaranja
+[2018.10.24-09.22.02:259][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.22.45:032][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.22.50:111][731]LogMaterial: Warning: Material /Game/Modelos/pasto/PastoVerde/grass_mat.grass_mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.10.24-09.22.50:177][731]LogMaterial: Display: Missing cached shader map for material grass_mat, compiling. 
+[2018.10.24-09.22.50:399][731]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.10.24-09.22.50:399][731]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.10.24-09.22.50:399][731]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.10.24-09.22.54:917][813]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.24-09.22.55:144][816]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.24-09.22.55:330][817]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.24-09.22.59:438][856]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.24-09.23.00:719][871]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.24-09.23.02:107][885]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.24-09.23.12:549][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.23.59:630][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.24.28:556][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.25.07:833][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.25.11:595][976]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Centro_Auto1AD3C3BBD4449A69DCCB90C999F82F975.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Levels/Centro_Auto1.umap'
+[2018.10.24-09.25.11:600][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Centro' took 0.427
+[2018.10.24-09.25.11:600][976]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.427
+[2018.10.24-09.25.11:831][976]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/pasto/PastoVerde/grass_mat] ([1] browsable assets)...
+[2018.10.24-09.25.11:878][976]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/pasto/PastoVerde/grass_mat.grass_mat]
+[2018.10.24-09.25.11:879][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/pasto/PastoVerde/grass_mat]
+[2018.10.24-09.25.11:921][976]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/grass_mat_Auto1865C8EDB4CE49492784A40AE64640E42.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/pasto/PastoVerde/grass_mat_Auto1.uasset'
+[2018.10.24-09.25.11:923][976]LogFileHelpers: Auto-saving content packages took 0.321
+[2018.10.24-09.32.21:985][453]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Pictures\Cueva\Cueva2.fbx)
+[2018.10.24-09.32.22:158][453]LogFbx: Loading FBX Scene from C:\Users\Familia\Pictures\Cueva\Cueva2.fbx
+[2018.10.24-09.32.22:226][453]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.24-09.32.24:842][453]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.24-09.32.26:093][453]LogLinker: Can't find file '/Game/Modelos/cueva/Cueva_text_COLOR'
+[2018.10.24-09.32.26:094][453]LogLinker: Can't find file '/Game/Modelos/cueva/Cueva_text_COLOR'
+[2018.10.24-09.32.26:355][453]LogTexture: Display: Building textures: Cueva_text_COLOR (AutoDXT, 2048X2048)
+[2018.10.24-09.32.34:154][453]LogLinker: Can't find file '/Game/Modelos/cueva/Cueva_text_NRM'
+[2018.10.24-09.32.34:155][453]LogLinker: Can't find file '/Game/Modelos/cueva/Cueva_text_NRM'
+[2018.10.24-09.32.34:401][453]LogTexture: Display: Building textures: Cueva_text_NRM (BC5, 2048X2048)
+[2018.10.24-09.32.35:494][453]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2018.10.24-09.32.35:528][453]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.24-09.32.35:528][453]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.24-09.32.35:528][453]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.24-09.32.35:536][453]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.10.24-09.32.35:876][453]LogStaticMesh: Building static mesh Cueva2...
+[2018.10.24-09.32.36:080][453]LogStaticMesh: Built static mesh [0.25s] /Game/Modelos/cueva/Cueva2.Cueva2
+[2018.10.24-09.32.37:454][460]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.24-09.32.43:222][473]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.24-09.32.43:232][473]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.24-09.33.02:464][650]LogActorFactory: Actor Factory created Cueva2
+[2018.10.24-09.33.05:353][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.33.10:808][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.33.14:194][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.24-09.33.25:657][142]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.33.25:687][142]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Cueva.Cueva
+[2018.10.24-09.33.29:077][142]LogSlate: Window 'Save Content' being destroyed
+[2018.10.24-09.33.29:298][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Centro" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.24-09.33.30:047][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Centro0DC95FD24E4F52ACD49552ACE11D72AA.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap'
+[2018.10.24-09.33.30:097][142]LogFileHelpers: Saving map 'Centro' took 0.937
+[2018.10.24-09.33.30:137][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva2" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset" SILENT=true
+[2018.10.24-09.33.30:228][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva24D1FAA7C45ADEF4DE5E8E4BFB9E3DFF9.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset'
+[2018.10.24-09.33.30:246][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva_text_COLOR" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva_text_COLOR.uasset" SILENT=true
+[2018.10.24-09.33.31:148][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva_text_COLOR0E7610264372FD7562802F941A9C87EC.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva_text_COLOR.uasset'
+[2018.10.24-09.33.31:166][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva_text_NRM" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva_text_NRM.uasset" SILENT=true
+[2018.10.24-09.33.32:301][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva_text_NRM73A932E94B49B432949CB289FF36E23F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva_text_NRM.uasset'
+[2018.10.24-09.33.32:349][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/lambert1" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/lambert1.uasset" SILENT=true
+[2018.10.24-09.33.32:381][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/lambert15B1062384FF0A297313E3B94C06A5983.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/lambert1.uasset'
+[2018.10.24-09.33.32:427][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/phong1" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/phong1.uasset" SILENT=true
+[2018.10.24-09.33.32:453][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/phong116EEC2F64E0CFFC8D8033AB53D1CF2A5.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/phong1.uasset'
+[2018.10.24-09.33.32:665][142]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/grass_mat53FFEE524710D8F037AAD98015F4F51C.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/pasto/PastoVerde/grass_mat.uasset'
+[2018.10.24-09.33.32:674][142]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Cueva.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.33.32:674][142]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.32:675][142]LoadErrors: New page: Loading map: Cueva.umap
+[2018.10.24-09.33.32:740][142]MapCheck: New page: Map Check
+[2018.10.24-09.33.32:740][142]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.35:172][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.33.35:248][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.33.35:482][142]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 234.466ms to complete.
+[2018.10.24-09.33.35:486][142]LogFileHelpers: Loading map 'Cueva' took 2.814
+[2018.10.24-09.33.47:389][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.33.48:117][348]LogAIModule: Creating AISystem for world Santuario
+[2018.10.24-09.33.48:127][348]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Santuario.Santuario
+[2018.10.24-09.33.48:154][348]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Santuario.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.33.48:154][348]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.48:155][348]LoadErrors: New page: Loading map: Santuario.umap
+[2018.10.24-09.33.48:156][348]MapCheck: New page: Map Check
+[2018.10.24-09.33.48:156][348]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.49:376][348]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.33.49:452][348]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.33.49:573][348]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.206ms to complete.
+[2018.10.24-09.33.49:578][348]LogFileHelpers: Loading map 'Santuario' took 1.426
+[2018.10.24-09.33.54:307][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.33.55:129][452]LogAIModule: Creating AISystem for world Bosque
+[2018.10.24-09.33.55:145][452]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Bosque.Bosque
+[2018.10.24-09.33.55:175][452]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Bosque.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.33.55:175][452]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.55:176][452]LoadErrors: New page: Loading map: Bosque.umap
+[2018.10.24-09.33.55:178][452]MapCheck: New page: Map Check
+[2018.10.24-09.33.55:178][452]LightingResults: New page: Lighting Build
+[2018.10.24-09.33.57:736][452]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.33.57:826][452]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.33.57:942][452]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.424ms to complete.
+[2018.10.24-09.33.57:948][452]LogFileHelpers: Loading map 'Bosque' took 2.775
+[2018.10.24-09.33.59:401][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.34.00:595][483]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-09.34.00:634][483]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Centro.Centro
+[2018.10.24-09.34.00:662][483]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.34.00:663][483]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.00:664][483]LoadErrors: New page: Loading map: Centro.umap
+[2018.10.24-09.34.00:665][483]MapCheck: New page: Map Check
+[2018.10.24-09.34.00:665][483]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.02:763][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.34.02:824][483]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.34.02:938][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.552ms to complete.
+[2018.10.24-09.34.02:938][483]LogFileHelpers: Loading map 'Centro' took 2.278
+[2018.10.24-09.34.08:476][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.34.08:802][560]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.34.08:818][560]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Cueva.Cueva
+[2018.10.24-09.34.08:846][560]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Cueva.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.34.08:846][560]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.08:847][560]LoadErrors: New page: Loading map: Cueva.umap
+[2018.10.24-09.34.08:849][560]MapCheck: New page: Map Check
+[2018.10.24-09.34.08:849][560]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.08:904][560]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.34.08:963][560]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.34.09:078][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.834ms to complete.
+[2018.10.24-09.34.09:080][560]LogFileHelpers: Loading map 'Cueva' took 0.237
+[2018.10.24-09.34.10:241][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.34.10:806][586]LogAIModule: Creating AISystem for world Lago
+[2018.10.24-09.34.10:820][586]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Lago.Lago
+[2018.10.24-09.34.10:848][586]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Lago.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.34.10:848][586]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.10:849][586]LoadErrors: New page: Loading map: Lago.umap
+[2018.10.24-09.34.10:851][586]MapCheck: New page: Map Check
+[2018.10.24-09.34.10:851][586]LightingResults: New page: Lighting Build
+[2018.10.24-09.34.13:931][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.34.13:990][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.34.14:107][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.388ms to complete.
+[2018.10.24-09.34.14:107][586]LogFileHelpers: Loading map 'Lago' took 3.261
+[2018.10.24-09.34.14:419][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.34.32:486][902]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Blueprint/Tunel/Tunel.Tunel
+[2018.10.24-09.34.51:438][ 32]LogSlate: Window 'Tunel' being destroyed
+[2018.10.24-09.34.51:441][ 32]LogSlate: Window 'Tunel' being destroyed
+[2018.10.24-09.34.54:109][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.35.03:973][227]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Cueva/Cueva.Cueva
+[2018.10.24-09.35.28:801][643]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.35.28:812][643]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Cueva.Cueva
+[2018.10.24-09.35.28:838][643]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Cueva.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.35.28:839][643]LightingResults: New page: Lighting Build
+[2018.10.24-09.35.28:840][643]LoadErrors: New page: Loading map: Cueva.umap
+[2018.10.24-09.35.28:841][643]MapCheck: New page: Map Check
+[2018.10.24-09.35.28:841][643]LightingResults: New page: Lighting Build
+[2018.10.24-09.35.28:898][643]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-09.35.28:959][643]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.35.29:080][643]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.485ms to complete.
+[2018.10.24-09.35.29:082][643]LogFileHelpers: Loading map 'Cueva' took 0.244
+[2018.10.24-09.35.36:698][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.35.42:730][867]LogActorFactory: Actor Factory created Cueva2
+[2018.10.24-09.35.45:749][913]LogActorFactory: Actor Factory created Cueva2
+[2018.10.24-09.36.22:330][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.36.22:455][490]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.10.24-09.36.40:633][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.36.41:503][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.36.49:656][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.36.52:011][ 36]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.37.07:043][281]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.37.11:291][350]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.37.14:300][394]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.37.16:277][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.37.17:304][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.37.17:366][439]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.37.17:873][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.37.18:038][439]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:37:17 PM)
+[2018.10.24-09.37.18:039][439]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.37.18:118][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079512s)
+[2018.10.24-09.37.18:119][439]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.37.18:130][439]LogPlayLevel: PIE: World Init took: (0.010994s)
+[2018.10.24-09.37.18:139][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.100768s)
+[2018.10.24-09.37.18:190][439]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.37.18:796][439]LogInit: FAudioDevice initialized.
+[2018.10.24-09.37.19:188][439]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.37.19:284][439]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.37.19
+[2018.10.24-09.37.19:308][439]LogWorld: Bringing up level for play took: 0.028996
+[2018.10.24-09.37.19:511][439]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 10 classes and 0 folders.
+[2018.10.24-09.37.19:529][439]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.37.19:535][439]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.37.19:535][439]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.37.19:653][439]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.37.19:664][439]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 1.764
+[2018.10.24-09.37.24:387][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.37.24:482][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.37.24:572][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.37.24:718][518]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.24-09.37.25:606][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.37.47:587][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.37.47:651][856]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.37.47:677][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.37.47:677][856]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:37:47 PM)
+[2018.10.24-09.37.47:677][856]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.37.47:693][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015551s)
+[2018.10.24-09.37.47:694][856]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.37.47:694][856]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2018.10.24-09.37.47:694][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.016902s)
+[2018.10.24-09.37.47:728][856]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.37.47:736][856]LogInit: FAudioDevice initialized.
+[2018.10.24-09.37.47:775][856]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.37.47:780][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.37.47
+[2018.10.24-09.37.47:780][856]LogWorld: Bringing up level for play took: 0.004604
+[2018.10.24-09.37.48:229][856]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.37.48:229][856]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.37.48:229][856]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.37.48:232][856]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.37.48:232][856]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 0.333
+[2018.10.24-09.37.52:783][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.37.52:877][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.37.52:916][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.37.53:003][935]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.24-09.37.54:135][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.38.00:425][ 40]Cmd: TRANSACTION UNDO
+[2018.10.24-09.38.00:425][ 40]LogEditorTransaction: Undo Move Actors
+[2018.10.24-09.38.18:051][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.38.18:349][294]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelos/cueva/Cueva2.Cueva2
+[2018.10.24-09.38.24:052][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.38.32:117][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva2" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset" SILENT=true
+[2018.10.24-09.38.32:455][380]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva21161C68640EFFCE2960AD09AD5DE0585.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset'
+[2018.10.24-09.38.44:116][469]LogSlate: Window 'Cueva2' being destroyed
+[2018.10.24-09.38.49:872][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.38.49:898][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.38.49:899][527]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:38:49 PM)
+[2018.10.24-09.38.49:899][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.38.49:912][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013426s)
+[2018.10.24-09.38.49:913][527]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.38.49:913][527]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2018.10.24-09.38.49:913][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.014586s)
+[2018.10.24-09.38.49:999][527]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.38.50:007][527]LogInit: FAudioDevice initialized.
+[2018.10.24-09.38.50:045][527]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.38.50:049][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.38.50
+[2018.10.24-09.38.50:050][527]LogWorld: Bringing up level for play took: 0.003789
+[2018.10.24-09.38.50:128][527]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.38.50:128][527]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.38.50:128][527]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.38.50:129][527]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.38.50:129][527]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 0.229
+[2018.10.24-09.38.55:738][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.38.55:830][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.38.55:859][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.38.55:948][650]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.24-09.38.57:286][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.38.59:614][678]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=27.75) to body Cueva2_2
+[2018.10.24-09.38.59:853][680]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=28.00) to body Cueva2_2
+[2018.10.24-09.39.00:326][684]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=28.25) to body Cueva2_2
+[2018.10.24-09.39.00:680][687]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=28.50) to body Cueva2_2
+[2018.10.24-09.39.00:917][689]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=28.75) to body Cueva2_2
+[2018.10.24-09.39.01:036][690]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=29.25) to body Cueva2_2
+[2018.10.24-09.39.01:156][691]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=29.50) to body Cueva2_2
+[2018.10.24-09.39.01:273][692]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=30.00) to body Cueva2_2
+[2018.10.24-09.39.01:864][697]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=30.25) to body Cueva2_2
+[2018.10.24-09.39.01:980][698]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=30.75) to body Cueva2_2
+[2018.10.24-09.39.02:098][699]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=31.25) to body Cueva2_2
+[2018.10.24-09.39.02:215][700]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=31.75) to body Cueva2_2
+[2018.10.24-09.39.02:333][701]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=32.25) to body Cueva2_2
+[2018.10.24-09.39.02:452][702]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=32.50) to body Cueva2_2
+[2018.10.24-09.39.02:570][703]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=32.75) to body Cueva2_2
+[2018.10.24-09.39.02:688][704]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=33.25) to body Cueva2_2
+[2018.10.24-09.39.02:805][705]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=33.75) to body Cueva2_2
+[2018.10.24-09.39.03:162][708]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=33.50) to body Cueva2_2
+[2018.10.24-09.39.03:396][710]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=34.00) to body Cueva2_2
+[2018.10.24-09.39.03:515][711]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=34.75) to body Cueva2_2
+[2018.10.24-09.39.03:632][712]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=35.50) to body Cueva2_2
+[2018.10.24-09.39.03:749][713]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=36.25) to body Cueva2_2
+[2018.10.24-09.39.03:867][714]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=37.25) to body Cueva2_2
+[2018.10.24-09.39.04:458][719]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=37.75) to body Cueva2_2
+[2018.10.24-09.39.04:577][720]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=38.25) to body Cueva2_2
+[2018.10.24-09.39.04:691][721]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=39.00) to body Cueva2_2
+[2018.10.24-09.39.04:808][722]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=39.50) to body Cueva2_2
+[2018.10.24-09.39.04:926][723]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=39.75) to body Cueva2_2
+[2018.10.24-09.39.05:044][724]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=40.00) to body Cueva2_2
+[2018.10.24-09.39.05:162][725]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.06:890][739]PIE: Warning: Applying invalid scale V(X=27.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.07:126][741]PIE: Warning: Applying invalid scale V(X=28.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.07:243][742]PIE: Warning: Applying invalid scale V(X=28.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.07:361][743]PIE: Warning: Applying invalid scale V(X=28.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.07:479][744]PIE: Warning: Applying invalid scale V(X=28.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.07:597][745]PIE: Warning: Applying invalid scale V(X=29.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.08:421][752]PIE: Warning: Applying invalid scale V(X=28.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.08:540][753]PIE: Warning: Applying invalid scale V(X=27.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.08:658][754]PIE: Warning: Applying invalid scale V(X=26.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.08:776][755]PIE: Warning: Applying invalid scale V(X=26.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.08:894][756]PIE: Warning: Applying invalid scale V(X=25.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.09:013][757]PIE: Warning: Applying invalid scale V(X=24.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.09:131][758]PIE: Warning: Applying invalid scale V(X=23.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.09:248][759]PIE: Warning: Applying invalid scale V(X=23.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.09:951][765]PIE: Warning: Applying invalid scale V(X=23.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:069][766]PIE: Warning: Applying invalid scale V(X=24.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:185][767]PIE: Warning: Applying invalid scale V(X=25.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:303][768]PIE: Warning: Applying invalid scale V(X=26.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:420][769]PIE: Warning: Applying invalid scale V(X=27.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:539][770]PIE: Warning: Applying invalid scale V(X=28.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:655][771]PIE: Warning: Applying invalid scale V(X=29.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:773][772]PIE: Warning: Applying invalid scale V(X=30.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.10:892][773]PIE: Warning: Applying invalid scale V(X=31.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:010][774]PIE: Warning: Applying invalid scale V(X=33.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:128][775]PIE: Warning: Applying invalid scale V(X=35.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:243][776]PIE: Warning: Applying invalid scale V(X=35.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:601][779]PIE: Warning: Applying invalid scale V(X=36.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:719][780]PIE: Warning: Applying invalid scale V(X=36.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:836][781]PIE: Warning: Applying invalid scale V(X=37.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.11:955][782]PIE: Warning: Applying invalid scale V(X=38.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:073][783]PIE: Warning: Applying invalid scale V(X=39.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:188][784]PIE: Warning: Applying invalid scale V(X=40.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:308][785]PIE: Warning: Applying invalid scale V(X=40.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:427][786]PIE: Warning: Applying invalid scale V(X=41.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:547][787]PIE: Warning: Applying invalid scale V(X=41.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:662][788]PIE: Warning: Applying invalid scale V(X=41.75, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:783][789]PIE: Warning: Applying invalid scale V(X=42.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.12:901][790]PIE: Warning: Applying invalid scale V(X=42.50, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.13:019][791]PIE: Warning: Applying invalid scale V(X=43.00, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.13:139][792]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=40.25) to body Cueva2_2
+[2018.10.24-09.39.14:388][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.39.14:506][803]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.39.14:533][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.39.14:533][803]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:39:14 PM)
+[2018.10.24-09.39.14:533][803]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.39.14:548][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014660s)
+[2018.10.24-09.39.14:549][803]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.39.14:549][803]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.10.24-09.39.14:549][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.015829s)
+[2018.10.24-09.39.14:592][803]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.39.14:601][803]LogInit: FAudioDevice initialized.
+[2018.10.24-09.39.14:656][803]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.39.14:662][803]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.39.14
+[2018.10.24-09.39.14:663][803]LogWorld: Bringing up level for play took: 0.005869
+[2018.10.24-09.39.14:676][803]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.39.14:676][803]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.39.14:676][803]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.39.14:678][803]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.39.14:678][803]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 0.778
+[2018.10.24-09.39.22:101][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.39.22:196][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.39.22:244][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.39.22:330][926]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.24-09.39.23:404][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.39.25:162][949]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=40.50) to body Cueva2_2
+[2018.10.24-09.39.25:250][950]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=40.75) to body Cueva2_2
+[2018.10.24-09.39.25:365][951]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=41.00) to body Cueva2_2
+[2018.10.24-09.39.25:479][952]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=41.25) to body Cueva2_2
+[2018.10.24-09.39.25:592][953]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=41.50) to body Cueva2_2
+[2018.10.24-09.39.25:710][954]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=41.75) to body Cueva2_2
+[2018.10.24-09.39.25:828][955]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.00) to body Cueva2_2
+[2018.10.24-09.39.25:942][956]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.50) to body Cueva2_2
+[2018.10.24-09.39.26:057][957]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=43.50) to body Cueva2_2
+[2018.10.24-09.39.26:175][958]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=45.25) to body Cueva2_2
+[2018.10.24-09.39.26:291][959]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=45.75) to body Cueva2_2
+[2018.10.24-09.39.26:751][963]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=45.25) to body Cueva2_2
+[2018.10.24-09.39.26:870][964]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=44.50) to body Cueva2_2
+[2018.10.24-09.39.26:983][965]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=43.50) to body Cueva2_2
+[2018.10.24-09.39.27:099][966]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.50) to body Cueva2_2
+[2018.10.24-09.39.27:214][967]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.00) to body Cueva2_2
+[2018.10.24-09.39.27:328][968]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=41.75) to body Cueva2_2
+[2018.10.24-09.39.27:674][971]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.00) to body Cueva2_2
+[2018.10.24-09.39.27:904][973]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.25) to body Cueva2_2
+[2018.10.24-09.39.28:250][976]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=42.75) to body Cueva2_2
+[2018.10.24-09.39.28:367][977]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=44.25) to body Cueva2_2
+[2018.10.24-09.39.28:480][978]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=46.50) to body Cueva2_2
+[2018.10.24-09.39.28:596][979]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=47.25) to body Cueva2_2
+[2018.10.24-09.39.28:709][980]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=47.50) to body Cueva2_2
+[2018.10.24-09.39.29:057][983]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=48.50) to body Cueva2_2
+[2018.10.24-09.39.29:171][984]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=51.00) to body Cueva2_2
+[2018.10.24-09.39.29:289][985]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=53.50) to body Cueva2_2
+[2018.10.24-09.39.29:410][986]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=54.00) to body Cueva2_2
+[2018.10.24-09.39.29:870][990]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=55.25) to body Cueva2_2
+[2018.10.24-09.39.29:986][991]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=57.50) to body Cueva2_2
+[2018.10.24-09.39.30:101][992]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=58.75) to body Cueva2_2
+[2018.10.24-09.39.30:564][996]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.34:018][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.39.38:149][ 52]PIE: Warning: Applying invalid scale V(X=43.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:267][ 53]PIE: Warning: Applying invalid scale V(X=43.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:381][ 54]PIE: Warning: Applying invalid scale V(X=44.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:499][ 55]PIE: Warning: Applying invalid scale V(X=44.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:619][ 56]PIE: Warning: Applying invalid scale V(X=45.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:731][ 57]PIE: Warning: Applying invalid scale V(X=45.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.38:853][ 58]PIE: Warning: Applying invalid scale V(X=46.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.39:089][ 60]PIE: Warning: Applying invalid scale V(X=46.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.39:209][ 61]PIE: Warning: Applying invalid scale V(X=46.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.39:326][ 62]PIE: Warning: Applying invalid scale V(X=46.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.39:449][ 63]PIE: Warning: Applying invalid scale V(X=47.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.39:567][ 64]PIE: Warning: Applying invalid scale V(X=47.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.40:278][ 70]PIE: Warning: Applying invalid scale V(X=47.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.40:756][ 74]PIE: Warning: Applying invalid scale V(X=48.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.40:875][ 75]PIE: Warning: Applying invalid scale V(X=48.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.40:990][ 76]PIE: Warning: Applying invalid scale V(X=48.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.41:577][ 81]PIE: Warning: Applying invalid scale V(X=48.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.41:692][ 82]PIE: Warning: Applying invalid scale V(X=47.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.41:843][ 83]PIE: Warning: Applying invalid scale V(X=45.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.41:927][ 84]PIE: Warning: Applying invalid scale V(X=45.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:041][ 85]PIE: Warning: Applying invalid scale V(X=44.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:162][ 86]PIE: Warning: Applying invalid scale V(X=43.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:279][ 87]PIE: Warning: Applying invalid scale V(X=42.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:396][ 88]PIE: Warning: Applying invalid scale V(X=41.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:515][ 89]PIE: Warning: Applying invalid scale V(X=40.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:632][ 90]PIE: Warning: Applying invalid scale V(X=39.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:747][ 91]PIE: Warning: Applying invalid scale V(X=38.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:864][ 92]PIE: Warning: Applying invalid scale V(X=37.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.42:979][ 93]PIE: Warning: Applying invalid scale V(X=36.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:097][ 94]PIE: Warning: Applying invalid scale V(X=36.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:213][ 95]PIE: Warning: Applying invalid scale V(X=35.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:329][ 96]PIE: Warning: Applying invalid scale V(X=34.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:445][ 97]PIE: Warning: Applying invalid scale V(X=33.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:562][ 98]PIE: Warning: Applying invalid scale V(X=31.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:676][ 99]PIE: Warning: Applying invalid scale V(X=30.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:789][100]PIE: Warning: Applying invalid scale V(X=29.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.43:909][101]PIE: Warning: Applying invalid scale V(X=28.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:018][102]PIE: Warning: Applying invalid scale V(X=28.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:250][104]PIE: Warning: Applying invalid scale V(X=29.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:362][105]PIE: Warning: Applying invalid scale V(X=29.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:479][106]PIE: Warning: Applying invalid scale V(X=31.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:593][107]PIE: Warning: Applying invalid scale V(X=32.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:706][108]PIE: Warning: Applying invalid scale V(X=34.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:819][109]PIE: Warning: Applying invalid scale V(X=36.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.44:936][110]PIE: Warning: Applying invalid scale V(X=39.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:052][111]PIE: Warning: Applying invalid scale V(X=41.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:168][112]PIE: Warning: Applying invalid scale V(X=43.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:283][113]PIE: Warning: Applying invalid scale V(X=46.25, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:398][114]PIE: Warning: Applying invalid scale V(X=48.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:515][115]PIE: Warning: Applying invalid scale V(X=48.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.45:982][119]PIE: Warning: Applying invalid scale V(X=49.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.46:098][120]PIE: Warning: Applying invalid scale V(X=49.50, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.46:214][121]PIE: Warning: Applying invalid scale V(X=50.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.46:332][122]PIE: Warning: Applying invalid scale V(X=50.75, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.46:450][123]PIE: Warning: Applying invalid scale V(X=51.00, Y=27.50, Z=58.50) to body Cueva2_2
+[2018.10.24-09.39.48:468][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.39.54:076][168]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.39.54:103][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.39.54:104][168]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:39:54 PM)
+[2018.10.24-09.39.54:104][168]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.39.54:119][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015071s)
+[2018.10.24-09.39.54:120][168]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.39.54:120][168]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2018.10.24-09.39.54:120][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.016516s)
+[2018.10.24-09.39.54:156][168]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.39.54:164][168]LogInit: FAudioDevice initialized.
+[2018.10.24-09.39.54:238][168]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.39.54:242][168]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.39.54
+[2018.10.24-09.39.54:243][168]LogWorld: Bringing up level for play took: 0.003870
+[2018.10.24-09.39.54:257][168]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.39.54:257][168]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.39.54:257][168]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.39.54:258][168]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.39.54:258][168]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 0.359
+[2018.10.24-09.40.00:537][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.40.00:627][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.40.00:663][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.40.00:718][277]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.24-09.40.01:761][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.40.03:680][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.40.49:487][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.40.52:045][646]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.40.52:073][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.40.52:073][646]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:40:52 PM)
+[2018.10.24-09.40.52:073][646]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.40.52:088][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014848s)
+[2018.10.24-09.40.52:089][646]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.40.52:089][646]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2018.10.24-09.40.52:089][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.016055s)
+[2018.10.24-09.40.52:124][646]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.40.52:132][646]LogInit: FAudioDevice initialized.
+[2018.10.24-09.40.52:194][646]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.40.52:198][646]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.40.52
+[2018.10.24-09.40.52:199][646]LogWorld: Bringing up level for play took: 0.003788
+[2018.10.24-09.40.52:212][646]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.40.52:212][646]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.40.52:212][646]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.40.52:213][646]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.40.52:213][646]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 0.314
+[2018.10.24-09.41.12:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.41.13:059][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.41.13:113][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.41.13:159][  1]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.24-09.41.14:103][  4]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.24-09.41.14:308][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva2)
+[2018.10.24-09.41.16:559][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.41.36:215][181]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Pictures/Cueva/Cueva2.fbx]
+[2018.10.24-09.41.36:303][181]LogFbx: Loading FBX Scene from C:/Users/Familia/Pictures/Cueva/Cueva2.fbx
+[2018.10.24-09.41.36:337][181]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.24-09.41.37:119][181]LogStaticMesh: Building static mesh Cueva2...
+[2018.10.24-09.41.37:238][181]LogStaticMesh: Built static mesh [0.12s] /Game/Modelos/cueva/Cueva2.Cueva2
+[2018.10.24-09.41.37:376][181]LogEditorFactories: -- imported successfully
+[2018.10.24-09.41.39:139][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva2" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset" SILENT=true
+[2018.10.24-09.41.39:178][203]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva27650982943EEC4493BE091A307FC5F72.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset'
+[2018.10.24-09.41.54:608][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.41.54:723][343]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.41.54:751][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.41.54:751][343]PIE: New page: PIE session: Cueva (Oct 23, 2018, 11:41:54 PM)
+[2018.10.24-09.41.54:751][343]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cueva
+[2018.10.24-09.41.54:767][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015643s)
+[2018.10.24-09.41.54:768][343]LogAIModule: Creating AISystem for world Cueva
+[2018.10.24-09.41.54:768][343]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2018.10.24-09.41.54:768][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cueva.Cueva to /Game/Levels/UEDPIE_0_Cueva.Cueva (0.016952s)
+[2018.10.24-09.41.54:854][343]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.41.54:862][343]LogInit: FAudioDevice initialized.
+[2018.10.24-09.41.54:898][343]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.41.54:903][343]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cueva.Cueva up for play (max tick rate 0) at 2018.10.24-04.41.54
+[2018.10.24-09.41.54:904][343]LogWorld: Bringing up level for play took: 0.005012
+[2018.10.24-09.41.54:917][343]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.41.54:917][343]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.41.54:917][343]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.41.54:918][343]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.41.54:918][343]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Cueva 1.018
+[2018.10.24-09.42.08:123][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.42.08:221][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.42.08:277][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.42.08:384][558]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.24-09.42.13:211][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.42.20:693][649]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-09.42.20:726][649]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Centro.Centro
+[2018.10.24-09.44.21:894][649]LogSlate: Window 'Save Content' being destroyed
+[2018.10.24-09.44.22:667][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Cueva" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Cueva.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.24-09.44.22:754][649]LogTexture: Display: Building textures: Texture2D_100 (BGRA8, 128X128)
+[2018.10.24-09.44.22:967][649]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/CuevaB0264CE54D2E305C9951E0A0A27E7E3A.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Cueva.umap'
+[2018.10.24-09.44.23:009][649]LogFileHelpers: Saving map 'Cueva' took 1.105
+[2018.10.24-09.44.23:011][649]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-09.44.23:011][649]LightingResults: New page: Lighting Build
+[2018.10.24-09.44.23:012][649]LoadErrors: New page: Loading map: Centro.umap
+[2018.10.24-09.44.23:014][649]MapCheck: New page: Map Check
+[2018.10.24-09.44.23:014][649]LightingResults: New page: Lighting Build
+[2018.10.24-09.44.25:518][649]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.10.24-09.44.25:621][649]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-09.44.25:737][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.038ms to complete.
+[2018.10.24-09.44.25:740][649]LogFileHelpers: Loading map 'Centro' took 2.731
+[2018.10.24-09.44.35:419][715]LogActorFactory: Actor Factory created Cueva
+[2018.10.24-09.44.37:836][734]LogActorFactory: Actor Factory created Cueva
+[2018.10.24-09.44.49:342][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.44.58:455][888]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.24-09.44.59:928][898]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.24-09.45.04:465][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.45.04:586][935]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.45.04:613][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.45.04:613][935]PIE: New page: PIE session: Centro (Oct 23, 2018, 11:45:04 PM)
+[2018.10.24-09.45.04:613][935]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Centro
+[2018.10.24-09.45.04:703][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089465s)
+[2018.10.24-09.45.04:704][935]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-09.45.04:704][935]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2018.10.24-09.45.04:704][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Centro.Centro to /Game/Levels/UEDPIE_0_Centro.Centro (0.091162s)
+[2018.10.24-09.45.04:742][935]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.45.04:750][935]LogInit: FAudioDevice initialized.
+[2018.10.24-09.45.04:786][935]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.45.04:793][935]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Centro.Centro up for play (max tick rate 0) at 2018.10.24-04.45.04
+[2018.10.24-09.45.04:793][935]LogWorld: Bringing up level for play took: 0.006383
+[2018.10.24-09.45.04:830][935]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.45.04:830][935]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.45.04:830][935]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.45.04:832][935]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.45.04:832][935]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Centro 0.933
+[2018.10.24-09.45.18:663][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.45.18:766][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.45.18:796][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.45.18:893][144]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.24-09.45.19:961][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.45.42:386][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.45.57:595][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.24-09.46.00:020][626]Cmd: DELETE
+[2018.10.24-09.46.00:020][626]Cmd: ACTOR DELETE
+[2018.10.24-09.46.00:278][626]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.24-09.46.00:321][626]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2018.10.24-09.46.01:288][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.46.11:968][719]LogActorFactory: Actor Factory created Cueva2
+[2018.10.24-09.46.14:652][741]LogActorFactory: Actor Factory created Cueva2
+[2018.10.24-09.46.53:127][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.46.53:382][ 47]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2018.10.24-09.47.01:912][115]Cmd: TRANSACTION UNDO
+[2018.10.24-09.47.01:912][115]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.24-09.47.05:723][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.47.13:596][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.47.23:940][293]Cmd: TRANSACTION UNDO
+[2018.10.24-09.47.23:941][293]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.24-09.47.26:421][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.47.29:649][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.47.58:407][578]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.48.13:716][708]Cmd: POLY SELECT ADJACENT WALLS
+[2018.10.24-09.48.18:790][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.48.26:640][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.49.59:539][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.50.02:964][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.50.41:735][879]Cmd: POLY SELECT MEMORY UNION
+[2018.10.24-09.51.00:293][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-09.51.00:445][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-09.51.00:475][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-09.51.00:476][ 11]PIE: New page: PIE session: Centro (Oct 23, 2018, 11:51:00 PM)
+[2018.10.24-09.51.00:476][ 11]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Centro
+[2018.10.24-09.51.00:500][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023949s)
+[2018.10.24-09.51.00:501][ 11]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-09.51.00:501][ 11]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2018.10.24-09.51.00:501][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Centro.Centro to /Game/Levels/UEDPIE_0_Centro.Centro (0.025286s)
+[2018.10.24-09.51.00:609][ 11]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-09.51.00:618][ 11]LogInit: FAudioDevice initialized.
+[2018.10.24-09.51.00:654][ 11]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-09.51.00:660][ 11]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Centro.Centro up for play (max tick rate 0) at 2018.10.24-04.51.00
+[2018.10.24-09.51.00:660][ 11]LogWorld: Bringing up level for play took: 0.005130
+[2018.10.24-09.51.00:673][ 11]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.51.00:673][ 11]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-09.51.00:673][ 11]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.51.00:674][ 11]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-09.51.00:674][ 11]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Centro 0.775
+[2018.10.24-09.51.33:147][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.51.33:245][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-09.51.33:300][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-09.51.33:350][497]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.24-09.51.51:288][642]Cmd: TRANSACTION UNDO
+[2018.10.24-09.51.51:288][642]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.24-09.51.51:734][642]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 512X512)
+[2018.10.24-09.51.53:201][653]Cmd: TRANSACTION UNDO
+[2018.10.24-09.51.53:201][653]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.24-09.51.53:420][653]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 512X512)
+[2018.10.24-09.52.00:576][711]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-09.53.41:938][424]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 512X512)
+[2018.10.24-09.53.42:362][424]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Centro_Auto2FC978BC343A521F8E753B8ADA1B85F5C.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Levels/Centro_Auto2.umap'
+[2018.10.24-09.53.42:368][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Centro' took 1.292
+[2018.10.24-09.53.42:368][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.292
+[2018.10.24-10.10.30:820][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.10.45:380][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.10.45:442][672]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Pictures/Cueva/Cueva2.fbx]
+[2018.10.24-10.10.45:544][672]LogFbx: Loading FBX Scene from C:/Users/Familia/Pictures/Cueva/Cueva2.fbx
+[2018.10.24-10.10.45:566][672]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.24-10.10.45:729][672]LogStaticMesh: Building static mesh Cueva2...
+[2018.10.24-10.10.45:847][672]LogStaticMesh: Built static mesh [0.12s] /Game/Modelos/cueva/Cueva2.Cueva2
+[2018.10.24-10.10.45:905][672]LogEditorFactories: -- imported successfully
+[2018.10.24-10.10.52:649][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.11.09:873][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.12.21:179][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.12.21:298][503]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-10.12.21:329][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-10.12.21:329][503]PIE: New page: PIE session: Centro (Oct 24, 2018, 12:12:21 AM)
+[2018.10.24-10.12.21:330][503]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Centro
+[2018.10.24-10.12.21:358][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028602s)
+[2018.10.24-10.12.21:359][503]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-10.12.21:359][503]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2018.10.24-10.12.21:359][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Centro.Centro to /Game/Levels/UEDPIE_0_Centro.Centro (0.029894s)
+[2018.10.24-10.12.21:435][503]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-10.12.21:443][503]LogInit: FAudioDevice initialized.
+[2018.10.24-10.12.21:479][503]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-10.12.21:484][503]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Centro.Centro up for play (max tick rate 0) at 2018.10.24-05.12.21
+[2018.10.24-10.12.21:485][503]LogWorld: Bringing up level for play took: 0.004850
+[2018.10.24-10.12.21:498][503]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-10.12.21:498][503]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-10.12.21:498][503]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-10.12.21:499][503]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-10.12.21:499][503]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Centro -0.4
+[2018.10.24-10.12.32:188][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-10.12.32:297][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-10.12.32:347][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-10.12.32:461][658]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.24-10.12.35:042][676]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-10.12.56:465][847]Cmd: POLY SELECT ADJACENT WALLS
+[2018.10.24-10.12.56:466][847]Cmd: POLY SELECT MEMORY UNION
+[2018.10.24-10.13.35:286][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.13.35:407][160]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-10.13.35:438][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-10.13.35:438][160]PIE: New page: PIE session: Centro (Oct 24, 2018, 12:13:35 AM)
+[2018.10.24-10.13.35:438][160]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Centro
+[2018.10.24-10.13.35:464][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025921s)
+[2018.10.24-10.13.35:465][160]LogAIModule: Creating AISystem for world Centro
+[2018.10.24-10.13.35:465][160]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2018.10.24-10.13.35:466][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Centro.Centro to /Game/Levels/UEDPIE_0_Centro.Centro (0.027589s)
+[2018.10.24-10.13.35:543][160]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-10.13.35:551][160]LogInit: FAudioDevice initialized.
+[2018.10.24-10.13.35:589][160]LogLoad: Game class is 'Modo1_C'
+[2018.10.24-10.13.35:594][160]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Centro.Centro up for play (max tick rate 0) at 2018.10.24-05.13.35
+[2018.10.24-10.13.35:595][160]LogWorld: Bringing up level for play took: 0.004912
+[2018.10.24-10.13.35:609][160]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-10.13.35:609][160]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.24-10.13.35:609][160]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-10.13.35:610][160]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.24-10.13.35:610][160]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Centro -0.29
+[2018.10.24-10.13.42:574][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-10.13.42:710][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-10.13.42:749][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-10.13.42:860][260]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.24-10.13.43:412][263]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.24-10.14.08:175][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.14.13:532][461]LogSlate: Window 'Choose Location for Foliage Type Asset' being destroyed
+[2018.10.24-10.14.15:444][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.14.28:822][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.24-10.14.39:148][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.14.53:728][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.15.24:422][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.16.00:563][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.16.01:162][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Centro" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.24-10.16.01:240][176]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 512X512)
+[2018.10.24-10.16.01:571][176]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Centro9449706445143783AE882289F9ACC4EB.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro.umap'
+[2018.10.24-10.16.01:621][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Centro_BuiltData" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro_BuiltData.uasset" SILENT=true
+[2018.10.24-10.16.01:671][176]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Centro_BuiltDataE6751AC244E824B42EE4598927A37AC4.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Levels/Centro_BuiltData.uasset'
+[2018.10.24-10.16.04:065][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-10.16.06:638][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.24-10.16.06:680][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/cueva/Cueva2" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset" SILENT=true
+[2018.10.24-10.16.06:723][213]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Cueva2B857EC6C4437617DBEB6EFA5B65F7863.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/cueva/Cueva2.uasset'
+[2018.10.24-10.17.25:468][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-10.17.26:621][482]LogSlate: Window 'ProyectoFaceTerreno - Unreal Editor' being destroyed
+[2018.10.24-10.17.27:112][483]Cmd: QUIT_EDITOR
+[2018.10.24-10.17.27:123][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.24-10.17.27:604][483]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.24-10.17.27:697][483]LogExit: Preparing to exit.
+[2018.10.24-10.17.28:947][483]LogExit: Editor shut down
+[2018.10.24-10.17.28:948][483]LogExit: Transaction tracking system shut down
+[2018.10.24-10.17.31:019][483]LogExit: Object subsystem successfully closed.
+[2018.10.24-10.17.31:179][483]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.24-10.17.31:214][483]LogD3D11RHI: Shutdown
+[2018.10.24-10.17.31:214][483]LogD3D11RHI: CleanupD3DDevice
+[2018.10.24-10.17.31:257][483]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.24-10.17.32:236][483]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2018.10.24-10.17.32:236][483]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2018.10.24-10.17.32:244][483]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
+[2018.10.24-10.17.32:245][483]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (612)
+[2018.10.24-10.17.32:245][483]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.10.24-10.17.32:245][483]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.10.24-10.17.32:245][483]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.10.24-10.17.32:273][483]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.10.24-10.17.32:273][483]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.10.24-10.17.32:273][483]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.10.24-10.17.32:300][483]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.10.24-10.17.32:310][483]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.10.24-10.17.32:310][483]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.10.24-10.17.32:317][483]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.10.24-10.17.32:327][483]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.10.24-10.17.32:327][483]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.10.24-10.17.32:327][483]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.10.24-10.17.32:327][483]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.10.24-10.17.32:327][483]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.10.24-10.17.32:328][483]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.10.24-10.17.32:336][483]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.10.24-10.17.32:348][483]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.10.24-10.17.32:348][483]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.10.24-10.17.32:348][483]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.10.24-10.17.32:365][483]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.10.24-10.17.32:379][483]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.10.24-10.17.32:392][483]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.10.24-10.17.32:392][483]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.10.24-10.17.32:423][483]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.10.24-10.17.32:424][483]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.10.24-10.17.32:424][483]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.10.24-10.17.32:444][483]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.10.24-10.17.32:445][483]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.10.24-10.17.32:445][483]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.10.24-10.17.32:445][483]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.10.24-10.17.32:460][483]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.10.24-10.17.32:476][483]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.10.24-10.17.32:490][483]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.10.24-10.17.32:517][483]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.10.24-10.17.32:527][483]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.10.24-10.17.32:527][483]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.10.24-10.17.32:538][483]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.10.24-10.17.32:539][483]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.10.24-10.17.32:539][483]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.10.24-10.17.33:336][483]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.10.24-10.17.33:336][483]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.10.24-10.17.33:336][483]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.10.24-10.17.33:336][483]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.10.24-10.17.33:336][483]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.10.24-10.17.33:399][483]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.10.24-10.17.33:402][483]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.10.24-10.17.33:418][483]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.10.24-10.17.33:425][483]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.10.24-10.17.33:425][483]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.10.24-10.17.33:426][483]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.10.24-10.17.33:440][483]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.10.24-10.17.33:441][483]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.10.24-10.17.33:451][483]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.10.24-10.17.33:452][483]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.10.24-10.17.33:452][483]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.10.24-10.17.33:452][483]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.10.24-10.17.33:466][483]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.10.24-10.17.33:481][483]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.10.24-10.17.33:494][483]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.10.24-10.17.33:503][483]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.10.24-10.17.33:508][483]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.10.24-10.17.33:575][483]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.10.24-10.17.33:580][483]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.10.24-10.17.33:593][483]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.10.24-10.17.33:617][483]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.10.24-10.17.33:617][483]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.10.24-10.17.33:617][483]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.10.24-10.17.33:617][483]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.10.24-10.17.33:653][483]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.10.24-10.17.33:653][483]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.10.24-10.17.33:660][483]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.10.24-10.17.33:696][483]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.10.24-10.17.33:730][483]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.10.24-10.17.33:730][483]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.10.24-10.17.33:730][483]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.24-10.17.33:745][483]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.24-10.17.33:758][483]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.24-10.17.33:758][483]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.24-10.17.33:766][483]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.24-10.17.33:767][483]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.24-10.17.33:767][483]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.24-10.17.33:776][483]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.24-10.17.33:787][483]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.24-10.17.33:799][483]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.24-10.17.33:809][483]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.24-10.17.33:821][483]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.24-10.17.33:821][483]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.24-10.17.33:821][483]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.24-10.17.33:836][483]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.24-10.17.33:863][483]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.24-10.17.33:863][483]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.24-10.17.33:864][483]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.24-10.17.33:876][483]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.24-10.17.33:876][483]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.24-10.17.33:876][483]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.24-10.17.33:881][483]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.24-10.17.33:901][483]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.24-10.17.33:901][483]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.24-10.17.33:901][483]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.24-10.17.33:901][483]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.24-10.17.33:918][483]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.24-10.17.33:919][483]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.24-10.17.33:919][483]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.24-10.17.33:919][483]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.24-10.17.33:930][483]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.24-10.17.33:930][483]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.24-10.17.33:930][483]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.24-10.17.33:930][483]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.24-10.17.33:930][483]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.24-10.17.33:931][483]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.24-10.17.33:931][483]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.24-10.17.33:944][483]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.24-10.17.33:960][483]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.24-10.17.33:961][483]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.24-10.17.33:985][483]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.24-10.17.33:992][483]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.24-10.17.33:992][483]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.24-10.17.34:000][483]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.24-10.17.34:007][483]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.24-10.17.34:007][483]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.24-10.17.34:007][483]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.24-10.17.34:007][483]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.24-10.17.34:007][483]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.24-10.17.34:015][483]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.24-10.17.34:023][483]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.24-10.17.34:054][483]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.24-10.17.34:063][483]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.24-10.17.34:063][483]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.24-10.17.34:063][483]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.24-10.17.34:063][483]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.24-10.17.34:063][483]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.24-10.17.34:079][483]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.24-10.17.34:088][483]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.24-10.17.34:088][483]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.24-10.17.34:088][483]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.24-10.17.34:088][483]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.24-10.17.34:098][483]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.24-10.17.34:099][483]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.24-10.17.34:099][483]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.24-10.17.34:113][483]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.24-10.17.34:113][483]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.24-10.17.34:214][483]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.24-10.17.34:325][483]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.24-10.17.34:325][483]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.24-10.17.34:334][483]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.24-10.17.34:334][483]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.24-10.17.34:334][483]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.24-10.17.34:334][483]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.24-10.17.34:340][483]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.24-10.17.34:367][483]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.24-10.17.34:376][483]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.24-10.17.34:376][483]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.24-10.17.34:379][483]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.24-10.17.34:430][483]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.24-10.17.34:433][483]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.24-10.17.34:440][483]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.24-10.17.34:440][483]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.24-10.17.34:440][483]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.24-10.17.34:452][483]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.24-10.17.34:464][483]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.24-10.17.34:470][483]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.24-10.17.34:477][483]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.24-10.17.34:477][483]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.24-10.17.34:477][483]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.24-10.17.34:485][483]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.24-10.17.34:486][483]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.24-10.17.34:486][483]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.24-10.17.34:486][483]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.24-10.17.34:492][483]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.24-10.17.34:507][483]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.24-10.17.34:507][483]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.24-10.17.34:540][483]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.24-10.17.34:555][483]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.24-10.17.34:576][483]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.24-10.17.34:576][483]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.24-10.17.34:584][483]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.24-10.17.34:597][483]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.24-10.17.34:632][483]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.24-10.17.34:632][483]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.24-10.17.34:660][483]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.24-10.17.34:660][483]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.24-10.17.34:664][483]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.24-10.17.34:674][483]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.24-10.17.34:680][483]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.24-10.17.34:691][483]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.24-10.17.34:691][483]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.24-10.17.34:695][483]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.24-10.17.34:706][483]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.24-10.17.34:706][483]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.24-10.17.34:719][483]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.24-10.17.34:722][483]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.24-10.17.34:723][483]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.24-10.17.34:755][483]LogDerivedDataCache: Shutdown
+[2018.10.24-10.17.34:755][483]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.24-10.17.34:765][483]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.24-10.17.34:765][483]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.24-10.17.34:773][483]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.24-10.17.34:777][483]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.24-10.17.34:788][483]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.24-10.17.34:788][483]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.24-10.17.34:800][483]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.24-10.17.34:800][483]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.24-10.17.34:800][483]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.24-10.17.34:800][483]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.24-10.17.34:812][483]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.24-10.17.34:812][483]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.24-10.17.34:812][483]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.24-10.17.34:812][483]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.24-10.17.34:813][483]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.24-10.17.34:821][483]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.24-10.17.34:822][483]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.24-10.17.34:832][483]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.24-10.17.34:832][483]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.24-10.17.34:838][483]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.24-10.17.34:838][483]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.24-10.17.34:892][483]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.24-10.17.34:892][483]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.24-10.17.34:892][483]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.24-10.17.34:892][483]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.24-10.17.34:892][483]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.24-10.17.34:893][483]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.24-10.17.34:899][483]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.24-10.17.34:899][483]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.24-10.17.34:899][483]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.24-10.17.34:899][483]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.24-10.17.34:906][483]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.24-10.17.34:915][483]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.24-10.17.34:947][483]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.24-10.17.34:961][483]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.24-10.17.34:961][483]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8931AF9-4D3F-A0B9-6534-45A3178ED99F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=f231cf9243e9d0e5f3eb1da83ece8f8e%7C7a4ecb216ec4484ea57c194a37756d79%7C97b9e824-68fc-499d-8da3-561593c1faa2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.24-10.17.34:992][483]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.24-10.17.35:012][483]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.24-10.17.35:019][483]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.24-10.17.35:019][483]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.24-10.17.35:032][483]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.24-10.17.35:051][483]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.24-10.17.35:058][483]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.24-10.17.35:071][483]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.24-10.17.35:071][483]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.24-10.17.35:071][483]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.24-10.17.35:071][483]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.24-10.17.35:089][483]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.24-10.17.35:101][483]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.24-10.17.35:101][483]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.24-10.17.35:114][483]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.24-10.17.35:114][483]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.24-10.17.35:114][483]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.24-10.17.35:114][483]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.24-10.17.35:121][483]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.24-10.17.35:121][483]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.24-10.17.35:138][483]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.24-10.17.35:138][483]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.24-10.17.35:158][483]LogExit: Exiting.
+[2018.10.24-10.17.35:180][483]Log file closed, 10/24/18 05:17:35

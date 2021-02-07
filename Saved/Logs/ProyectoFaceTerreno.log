@@ -1,0 +1,1604 @@
+﻿Log file open, 11/15/18 16:33:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProyectoFaceTerreno
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.655614
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.617s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz, GPU: NVIDIA GeForce GT 430
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.212s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.15-22.33.18:731][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.15-22.33.18:731][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.15-22.33.18:831][  0]LogHAL: Display: Platform has ~ 7 GB [7304781824 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.15-22.33.18:831][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.15-22.33.18:831][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.15-22.33.18:865][  0]LogInit: Computer: DESKTOP-DDT5E5J
+[2018.11.15-22.33.18:865][  0]LogInit: User: Familia
+[2018.11.15-22.33.18:865][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.15-22.33.18:865][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2018.11.15-22.33.18:865][  0]LogMemory: Memory total: Physical=6.8GB (7GB approx)
+[2018.11.15-22.33.18:865][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.15-22.33.18:865][  0]LogMemory: Process Physical Memory: 100.11 MB used, 100.11 MB peak
+[2018.11.15-22.33.18:865][  0]LogMemory: Process Virtual Memory: 88.74 MB used, 88.74 MB peak
+[2018.11.15-22.33.18:866][  0]LogMemory: Physical Memory: 3963.67 MB used,  3002.71 MB free, 6966.38 MB total
+[2018.11.15-22.33.18:866][  0]LogMemory: Virtual Memory: 4625.45 MB used,  3002.71 MB free, 134217728.00 MB total
+[2018.11.15-22.33.19:778][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.11.15-22.33.19:778][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.11.15-22.33.21:228][  0]LogStreaming: Display: Took  1.450s to InitEngineTextLocalization.
+[2018.11.15-22.33.21:229][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.15-22.33.21:750][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.15-22.33.21:750][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.15-22.33.31:946][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.15-22.33.31:946][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.15-22.33.32:229][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 430' (Feature Level 11_0)
+[2018.11.15-22.33.32:229][  0]LogD3D11RHI:       979/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.15-22.33.32:590][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2018.11.15-22.33.32:590][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.15-22.33.32:614][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.15-22.33.32:614][  0]LogD3D11RHI:       0/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.15-22.33.32:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.15-22.33.32:624][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.15-22.33.32:624][  0]LogD3D11RHI:     GPU DeviceId: 0xde1 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.15-22.33.32:624][  0]LogWindows: EnumDisplayDevices:
+[2018.11.15-22.33.32:624][  0]LogWindows:    0. 'NVIDIA GeForce GT 430' (P:1 D:1)
+[2018.11.15-22.33.32:625][  0]LogWindows:    1. 'NVIDIA GeForce GT 430' (P:0 D:0)
+[2018.11.15-22.33.32:625][  0]LogWindows:    2. 'Intel(R) HD Graphics' (P:0 D:0)
+[2018.11.15-22.33.32:626][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2018.11.15-22.33.32:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 430
+[2018.11.15-22.33.32:626][  0]LogD3D11RHI:   Driver Version: 375.57 (internal:21.21.13.7557, unified:375.57)
+[2018.11.15-22.33.32:626][  0]LogD3D11RHI:      Driver Date: 10-18-2016
+[2018.11.15-22.33.32:626][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2018.11.15-22.33.32:691][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.11.15-22.33.32:691][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.15-22.33.32:714][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.15-22.33.32:781][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Intermediate/Shaders/WorkingDirectory/3388/).
+[2018.11.15-22.33.32:781][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Familia/AppData/Local/Temp/UnrealShaderWorkingDir/FDF5C3A44620FB34DDC89C9BC8EF5F11/'.
+[2018.11.15-22.33.37:335][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.15-22.33.37:368][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.15-22.33.37:409][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.15-22.33.37:438][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.15-22.33.37:553][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.15-22.33.37:585][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.15-22.33.37:627][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.15-22.33.37:658][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.15-22.33.37:669][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.37:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-22.33.38:534][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.15-22.33.38:790][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.15-22.33.38:790][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.15-22.33.38:854][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.15-22.33.38:854][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.15-22.33.38:888][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.15-22.33.38:928][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.15-22.33.39:063][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.15-22.33.39:117][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.15-22.33.39:148][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.15-22.33.39:148][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.15-22.33.39:823][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.15-22.33.39:823][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.15-22.33.39:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.15-22.33.45:555][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.15-22.33.47:114][  0]LogDerivedDataCache: Loaded boot cache 1.19s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.15-22.33.47:115][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.15-22.33.47:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.15-22.33.47:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.15-22.33.47:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.15-22.33.47:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.15-22.33.47:194][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.15-22.33.47:207][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Familia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.15-22.33.47:207][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.15-22.33.47:207][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.15-22.33.47:250][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.15-22.33.47:253][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.15-22.33.47:254][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.15-22.33.47:370][  0]LogAssetRegistry: FAssetRegistry took 0.0330 seconds to start up
+[2018.11.15-22.33.48:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.15-22.33.49:588][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.15-22.33.49:701][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.15-22.33.49:701][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.15-22.33.49:713][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.15-22.33.49:713][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.15-22.33.49:786][  0]LogNetVersion: ProyectoFaceTerreno 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 396919257)
+[2018.11.15-22.33.53:054][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.221927 seconds
+[2018.11.15-22.33.53:069][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.15-22.33.53:069][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.15-22.33.53:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.15-22.34.08:082][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.15-22.34.08:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.15-22.34.09:746][  0]SourceControl: Source control is disabled
+[2018.11.15-22.34.09:746][  0]SourceControl: Source control is disabled
+[2018.11.15-22.34.09:791][  0]SourceControl: Source control is disabled
+[2018.11.15-22.34.09:811][  0]SourceControl: Source control is disabled
+[2018.11.15-22.34.11:841][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.15-22.34.12:337][  0]LogOcInput: OculusInput pre-init called
+[2018.11.15-22.34.12:985][  0]LogEngine: Initializing Engine...
+[2018.11.15-22.34.12:986][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.15-22.34.12:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.15-22.34.12:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.15-22.34.12:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.15-22.34.12:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.15-22.34.13:816][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.15-22.34.13:866][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.15-22.34.13:916][  0]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.15-22.34.13:951][  0]LogInit: FAudioDevice initialized.
+[2018.11.15-22.34.13:951][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.15-22.34.14:224][  0]LogDerivedDataCache: Saved boot cache 0.27s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.15-22.34.14:242][  0]LogInit: Texture streaming: Enabled
+[2018.11.15-22.34.14:395][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.15-22.34.14:396][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={ABB0671E-45DD-3BA1-0B17-4EAE0075EABA}
+[2018.11.15-22.34.14:425][  0]LogInit: Transaction tracking system initialized
+[2018.11.15-22.34.14:575][  0]BlueprintLog: New page: Editor Load
+[2018.11.15-22.34.15:710][  0]LocalizationService: Localization service is disabled
+[2018.11.15-22.34.17:201][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.15-22.34.17:201][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.15-22.34.17:201][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.15-22.34.17:201][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.15-22.34.17:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.15-22.34.17:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.15-22.34.17:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.15-22.34.17:776][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/' took 0.03s
+[2018.11.15-22.34.18:788][  0]SourceControl: Source control is disabled
+[2018.11.15-22.34.18:881][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.15-22.35.00:922][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.11.15-22.35.00:923][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.15-22.35.00:938][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.15-22.35.02:522][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.11.15-22.35.02:523][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.15-22.35.02:894][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.15-22.35.02:896][  0]Cmd: MAP LOAD FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.15-22.35.02:897][  0]LightingResults: New page: Lighting Build
+[2018.11.15-22.35.02:901][  0]MapCheck: New page: Map Check
+[2018.11.15-22.35.02:901][  0]LightingResults: New page: Lighting Build
+[2018.11.15-22.35.05:656][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.15-22.35.05:711][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.15-22.35.05:772][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.15-22.35.05:926][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 154.269ms to complete.
+[2018.11.15-22.35.05:926][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.030
+[2018.11.15-22.35.06:099][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.35.06:112][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.35.06:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.35.06:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.35.06:171][  0]LogCollectionManager: Loaded 0 collections in 0.001279 seconds
+[2018.11.15-22.35.06:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Collections/' took 0.01s
+[2018.11.15-22.35.06:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Developers/Familia/Collections/' took 0.01s
+[2018.11.15-22.35.06:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Collections/' took 0.01s
+[2018.11.15-22.35.06:219][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.15-22.35.06:242][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 2572 classes and 603 folders.
+[2018.11.15-22.35.06:252][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.15-22.35.08:152][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.15-22.35.08:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.15-22.35.08:336][  0]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.15-22.35.08:364][  0]LogSlate: Took 0.021296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.15-22.35.08:571][  0]LogRenderer: Reallocating scene render targets to support 1252x692 Format 10 NumSamples 1 (Frame:1).
+[2018.11.15-22.35.09:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.15-22.35.09:107][  0]LogLoad: (Engine Initialization) Total time: 149.46 seconds
+[2018.11.15-22.35.09:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.15-22.35.09:144][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.15-22.35.09:747][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-22.35.10:503][  2]LogSlate: Took 0.063340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-22.35.10:595][  3]LogAssetRegistry: Asset discovery search completed in 83.2482 seconds
+[2018.11.15-22.35.10:602][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.15-22.35.10:602][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000133 seconds (updated 0 objects)
+[2018.11.15-22.35.13:777][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.35.38:119][217]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-22.35.38:188][217]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Downloads\cuerpoCompleto3.fbx)
+[2018.11.15-22.35.38:243][217]LogFbx: Loading FBX Scene from C:\Users\Familia\Downloads\cuerpoCompleto3.fbx
+[2018.11.15-22.35.38:277][217]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.35.39:939][217]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.15-22.35.40:833][217]LogMaterial: Display: Missing cached shader map for material Default_Material, compiling. 
+[2018.11.15-22.35.40:910][217]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.15-22.35.40:910][217]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.15-22.35.40:910][217]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.15-22.35.41:838][217]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.15-22.35.41:896][217]LogFbx: Warning: Triangulating static mesh polySurface3
+[2018.11.15-22.35.45:312][217]LogStaticMesh: Building static mesh cuerpoCompleto3...
+[2018.11.15-22.35.46:159][217]LogStaticMesh: Built static mesh [1.07s] /Game/Modelos/brazos/cuerpoCompleto3.cuerpoCompleto3
+[2018.11.15-22.35.47:865][219]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.15-22.35.53:362][279]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.15-22.35.54:325][295]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.15-22.36.00:796][366]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Desktop\V2\Modelos V2\Modelos V2\brazos\Standing Idle 01.fbx)
+[2018.11.15-22.36.00:829][366]LogFbx: Loading FBX Scene from C:\Users\Familia\Desktop\V2\Modelos V2\Modelos V2\brazos\Standing Idle 01.fbx
+[2018.11.15-22.36.00:913][366]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.36.18:322][366]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.15-22.36.18:381][366]LogFbx: =================================================
+[2018.11.15-22.36.18:381][366]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.36.18:381][366]LogFbx: 	Total Deformer Count -1844523120.
+[2018.11.15-22.36.18:381][366]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.36.18:381][366]LogFbx: =================================================
+[2018.11.15-22.36.18:381][366]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.36.18:381][366]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.36.18:381][366]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.36.18:381][366]LogFbx: =================================================
+[2018.11.15-22.36.18:381][366]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.36.18:381][366]LogFbx: 	Total Deformer Count -1844523120.
+[2018.11.15-22.36.18:381][366]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.36.18:381][366]LogFbx: =================================================
+[2018.11.15-22.36.18:381][366]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.36.18:381][366]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.36.18:381][366]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.36.18:383][366]LogFbx: Valid bind pose for Pose (BindPose) - polySurface3
+[2018.11.15-22.36.18:412][366]LogFbx: Triangulating skeletal mesh polySurface3
+[2018.11.15-22.36.19:722][366]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2018.11.15-22.36.20:493][366]LogSkeletalMesh: Section 0: 14639 vertices, 52 active bones
+[2018.11.15-22.36.20:493][366]LogSkeletalMesh: Section 1: 156 vertices, 3 active bones
+[2018.11.15-22.36.20:496][366]LogSkeletalMesh: Section 0: Material=0, 25872 triangles
+[2018.11.15-22.36.20:496][366]LogSkeletalMesh: Section 1: Material=1, 56 triangles
+[2018.11.15-22.36.20:594][366]LogSkeletalMesh: Building Skeletal Mesh Standing_Idle_01...
+[2018.11.15-22.36.20:674][366]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Modelos/brazos/Standing_Idle_01.Standing_Idle_01
+[2018.11.15-22.36.21:110][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_Skeleton'
+[2018.11.15-22.36.21:111][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_Skeleton'
+[2018.11.15-22.36.21:117][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset'
+[2018.11.15-22.36.21:118][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset'
+[2018.11.15-22.36.21:138][366]LogMaterial: Warning: Material /Game/Modelos/brazos/Default_Material.Default_Material needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.15-22.36.21:142][366]LogMaterial: Display: Missing cached shader map for material Default_Material, compiling. 
+[2018.11.15-22.36.21:187][366]LogMaterial: Warning: Material /Game/Modelos/brazos/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.15-22.36.22:026][366]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.15-22.36.22:026][366]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.15-22.36.22:026][366]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.15-22.36.22:026][366]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.15-22.36.22:106][366]LogFbx: =================================================
+[2018.11.15-22.36.22:106][366]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.36.22:106][366]LogFbx: 	Total Deformer Count -1400398512.
+[2018.11.15-22.36.22:106][366]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.36.22:106][366]LogFbx: =================================================
+[2018.11.15-22.36.22:106][366]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.36.22:106][366]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.36.22:106][366]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.36.22:107][366]LogFbx: =================================================
+[2018.11.15-22.36.22:107][366]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.36.22:107][366]LogFbx: 	Total Deformer Count -1400398512.
+[2018.11.15-22.36.22:107][366]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.36.22:107][366]LogFbx: =================================================
+[2018.11.15-22.36.22:107][366]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.36.22:107][366]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.36.22:107][366]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(0) Hips
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(1) Spine
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(2) Spine1
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(3) Spine2
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(4) Neck
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(5) Head
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.11.15-22.36.22:108][366]LogFbx: SortedLinks :(8) LeftArm
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(10) LeftHand
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(31) RightShoulder
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(32) RightArm
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(33) RightForeArm
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(34) RightHand
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(56) LeftLeg
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(57) LeftFoot
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(61) RightLeg
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(62) RightFoot
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(63) RightToeBase
+[2018.11.15-22.36.22:109][366]LogFbx: SortedLinks :(64) RightToe_End
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(0) Hips
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(1) Spine
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(2) Spine1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(3) Spine2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(4) Neck
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(5) Head
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(8) LeftArm
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(10) LeftHand
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(31) RightShoulder
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(32) RightArm
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(33) RightForeArm
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(34) RightHand
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.11.15-22.36.22:111][366]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(56) LeftLeg
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(57) LeftFoot
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(61) RightLeg
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(62) RightFoot
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(63) RightToeBase
+[2018.11.15-22.36.22:112][366]LogFbx: SortedLinks :(64) RightToe_End
+[2018.11.15-22.36.22:115][366]LogFbx: Parsing AnimStack Take 001
+[2018.11.15-22.36.22:117][366]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.15-22.36.22:125][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_Anim'
+[2018.11.15-22.36.22:125][366]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Idle_01_Anim'
+[2018.11.15-22.36.25:485][366]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/brazos/Standing_Idle_01_Anim.Standing_Idle_01_Anim
+[2018.11.15-22.36.25:487][366]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Idle_01_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.36.25:506][366]LogSkeletalMesh: Building Skeletal Mesh Standing_Idle_01...
+[2018.11.15-22.36.25:626][366]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Modelos/brazos/Standing_Idle_01.Standing_Idle_01
+[2018.11.15-22.36.25:671][366]FBXImport: Warning: Animation Stack Take 001 does not contain any valid key. Try different time options when import. 
+[2018.11.15-22.36.25:686][366]LogSkeletalMesh: Building Skeletal Mesh Standing_Idle_01...
+[2018.11.15-22.36.25:830][366]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/Modelos/brazos/Standing_Idle_01.Standing_Idle_01
+[2018.11.15-22.36.32:942][486]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.15-22.36.34:813][513]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.15-22.36.35:821][532]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.15-22.36.38:473][570]LogSlate: Window 'Message Log' being destroyed
+[2018.11.15-22.36.38:550][570]LogSlate: Window 'Message Log' being destroyed
+[2018.11.15-22.36.40:121][584]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Modelos/brazos/Standing_Idle_01_Skeleton.Standing_Idle_01_Skeleton
+[2018.11.15-22.36.40:542][584]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.15-22.36.41:490][584]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.36.41:495][584]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.11.15-22.36.41:622][584]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.36.42:831][584]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.11.15-22.36.45:809][608]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.15-22.36.47:627][627]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.15-22.36.49:408][644]LogRenderer: Reallocating scene render targets to support 1252x888 Format 10 NumSamples 1 (Frame:60).
+[2018.11.15-22.36.50:229][651]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.15-22.36.53:069][671]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.15-22.36.53:534][675]LogSlate: Window 'Standing_Idle_01_Skeleton*' being destroyed
+[2018.11.15-22.36.53:733][675]LogSlate: Window 'Standing_Idle_01_Skeleton*' being destroyed
+[2018.11.15-22.36.56:347][693]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Modelos/brazos/Standing_Idle_01_Anim.Standing_Idle_01_Anim
+[2018.11.15-22.36.56:521][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.36.56:636][693]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.36.57:889][693]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.37.00:296][714]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.15-22.37.00:405][716]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.15-22.37.05:478][738]LogSlate: Window 'Standing_Idle_01_Anim*' being destroyed
+[2018.11.15-22.37.20:404][449]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/brazos/Standing_Idle_01_Anim.Standing_Idle_01_Anim
+[2018.11.15-22.37.20:408][449]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.37.24:573][667]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_AnimCFB1891341535B2C33E482BB406DFBA2.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Idle_01_Anim.uasset'
+[2018.11.15-22.37.33:823][905]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tunel)
+[2018.11.15-22.37.34:159][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.37.34:174][905]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tunel)
+[2018.11.15-22.37.34:290][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.37.41:554][985]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Desktop\V2\Modelos V2\Modelos V2\brazos\Standing Run Forward(1).fbx)
+[2018.11.15-22.37.41:589][985]LogFbx: Loading FBX Scene from C:\Users\Familia\Desktop\V2\Modelos V2\Modelos V2\brazos\Standing Run Forward(1).fbx
+[2018.11.15-22.37.41:671][985]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.37.56:229][985]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.15-22.37.56:312][985]LogFbx: =================================================
+[2018.11.15-22.37.56:312][985]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.37.56:312][985]LogFbx: 	Total Deformer Count 73668048.
+[2018.11.15-22.37.56:312][985]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.37.56:312][985]LogFbx: =================================================
+[2018.11.15-22.37.56:312][985]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.37.56:312][985]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.37.56:312][985]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.37.56:313][985]LogFbx: =================================================
+[2018.11.15-22.37.56:313][985]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.37.56:313][985]LogFbx: 	Total Deformer Count 73668048.
+[2018.11.15-22.37.56:313][985]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.37.56:313][985]LogFbx: =================================================
+[2018.11.15-22.37.56:313][985]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.37.56:313][985]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.37.56:313][985]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.37.56:316][985]LogFbx: Valid bind pose for Pose (BindPose) - polySurface3
+[2018.11.15-22.37.56:359][985]LogFbx: Triangulating skeletal mesh polySurface3
+[2018.11.15-22.37.57:728][985]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2018.11.15-22.37.58:579][985]LogSkeletalMesh: Section 0: 14639 vertices, 52 active bones
+[2018.11.15-22.37.58:579][985]LogSkeletalMesh: Section 1: 156 vertices, 3 active bones
+[2018.11.15-22.37.58:582][985]LogSkeletalMesh: Section 0: Material=0, 25872 triangles
+[2018.11.15-22.37.58:582][985]LogSkeletalMesh: Section 1: Material=1, 56 triangles
+[2018.11.15-22.37.58:583][985]LogSkeletalMesh: Building Skeletal Mesh Standing_Run_Forward_1_...
+[2018.11.15-22.37.58:650][985]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Modelos/brazos/Standing_Run_Forward_1_.Standing_Run_Forward_1_
+[2018.11.15-22.37.58:668][985]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset'
+[2018.11.15-22.37.58:669][985]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset'
+[2018.11.15-22.37.58:684][985]LogFbx: =================================================
+[2018.11.15-22.37.58:685][985]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.37.58:685][985]LogFbx: 	Total Deformer Count 462828736.
+[2018.11.15-22.37.58:685][985]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.37.58:685][985]LogFbx: =================================================
+[2018.11.15-22.37.58:685][985]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.37.58:685][985]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.37.58:685][985]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.37.58:685][985]LogFbx: =================================================
+[2018.11.15-22.37.58:685][985]LogFbx: Dumping Node START [polySurface3] 
+[2018.11.15-22.37.58:685][985]LogFbx: 	Total Deformer Count 462828736.
+[2018.11.15-22.37.58:685][985]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.37.58:685][985]LogFbx: =================================================
+[2018.11.15-22.37.58:685][985]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.37.58:685][985]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2018.11.15-22.37.58:685][985]LogFbx: Dumping Node END [polySurface3]
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(0) Hips
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(1) Spine
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(2) Spine1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(3) Spine2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(4) Neck
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(5) Head
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(8) LeftArm
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(10) LeftHand
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(31) RightShoulder
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(32) RightArm
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(33) RightForeArm
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(34) RightHand
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.11.15-22.37.58:687][985]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(56) LeftLeg
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(57) LeftFoot
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(61) RightLeg
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(62) RightFoot
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(63) RightToeBase
+[2018.11.15-22.37.58:688][985]LogFbx: SortedLinks :(64) RightToe_End
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(0) Hips
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(1) Spine
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(2) Spine1
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(3) Spine2
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(4) Neck
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(5) Head
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(8) LeftArm
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(10) LeftHand
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.11.15-22.37.58:690][985]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(31) RightShoulder
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(32) RightArm
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(33) RightForeArm
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(34) RightHand
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(56) LeftLeg
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(57) LeftFoot
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(61) RightLeg
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(62) RightFoot
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(63) RightToeBase
+[2018.11.15-22.37.58:691][985]LogFbx: SortedLinks :(64) RightToe_End
+[2018.11.15-22.37.58:696][985]LogFbx: Parsing AnimStack Take 001
+[2018.11.15-22.37.58:699][985]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.15-22.37.58:703][985]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Run_Forward_1__Anim'
+[2018.11.15-22.37.58:703][985]LogLinker: Can't find file '/Game/Modelos/brazos/Standing_Run_Forward_1__Anim'
+[2018.11.15-22.37.59:151][985]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/brazos/Standing_Run_Forward_1__Anim.Standing_Run_Forward_1__Anim
+[2018.11.15-22.37.59:151][985]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Run_Forward_1__Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.37.59:165][985]LogSkeletalMesh: Building Skeletal Mesh Standing_Run_Forward_1_...
+[2018.11.15-22.37.59:234][985]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Modelos/brazos/Standing_Run_Forward_1_.Standing_Run_Forward_1_
+[2018.11.15-22.37.59:254][985]FBXImport: Warning: Animation Stack Take 001 does not contain any valid key. Try different time options when import. 
+[2018.11.15-22.37.59:313][985]LogSkeletalMesh: Building Skeletal Mesh Standing_Run_Forward_1_...
+[2018.11.15-22.37.59:383][985]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Modelos/brazos/Standing_Run_Forward_1_.Standing_Run_Forward_1_
+[2018.11.15-22.38.02:102][ 10]LogSlate: Window 'Message Log' being destroyed
+[2018.11.15-22.38.02:182][ 10]LogSlate: Window 'Message Log' being destroyed
+[2018.11.15-22.39.07:759][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.39.20:315][778]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/brazos/Standing_Run_Forward_1__Anim.Standing_Run_Forward_1__Anim
+[2018.11.15-22.39.20:317][778]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.39.22:949][940]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Run_Forward_1__Anim094B9DC14FB511F33E0B4698AB9695F1.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Run_Forward_1__Anim.uasset'
+[2018.11.15-22.39.26:149][ 28]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Modelos/brazos/Standing_Run_Forward_1__Anim.Standing_Run_Forward_1__Anim
+[2018.11.15-22.39.26:222][ 28]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.39.26:696][ 28]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.39.27:362][ 28]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.39.53:618][285]LogSlate: Window 'Pick Skeleton' being destroyed
+[2018.11.15-22.40.07:126][377]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/brazos/Ide_Run.Ide_Run
+[2018.11.15-22.40.07:202][377]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.40.07:281][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.40.07:999][377]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.40.11:054][409]LogSlate: Window 'Ide_Run*' being destroyed
+[2018.11.15-22.41.14:428][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/Ide_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Ide_Run.uasset" SILENT=true
+[2018.11.15-22.41.15:033][ 41]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Ide_Run8414F3F343053973A0E253838018EC7F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Ide_Run.uasset'
+[2018.11.15-22.41.24:736][359]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.11.15-22.43.01:963][359]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2018.11.15-22.43.13:092][499]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Modelos/brazos/BP_Ranger_animation.BP_Ranger_animation
+[2018.11.15-22.43.13:176][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.43.14:613][499]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.11.15-22.43.16:226][499]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.43.16:686][499]LogSlate: Took 0.018164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.15-22.43.17:080][499]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.43.19:639][539]LogSlate: Window 'BP_Ranger_animation*' being destroyed
+[2018.11.15-22.43.28:335][772]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.15-22.44.07:754][727]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/Goblin.Goblin
+[2018.11.15-22.44.38:421][656]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Modelos/goblin/Goblin_Idle.Goblin_Idle
+[2018.11.15-22.44.38:475][656]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.44.38:954][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'Hips' 
+[2018.11.15-22.44.38:954][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'Spine' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'Spine2' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'Head' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'LeftArm' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'LeftHand' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'RightArm' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'RightHand' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'LeftUpLeg' 
+[2018.11.15-22.44.38:955][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'LeftFoot' 
+[2018.11.15-22.44.38:956][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'RightUpLeg' 
+[2018.11.15-22.44.38:956][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'RightFoot' 
+[2018.11.15-22.44.38:956][656]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.44.39:834][656]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.44.48:536][926]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Modelos/goblin/BP_Goblin_Move.BP_Goblin_Move
+[2018.11.15-22.44.48:631][926]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.44.49:034][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.44.49:916][926]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.45.13:062][595]BlueprintLog: New page: Compile BP_Ranger_animation
+[2018.11.15-22.45.26:789][  3]BlueprintLog: New page: Compile BP_Ranger_animation
+[2018.11.15-22.45.37:486][226]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/Ranger.Ranger
+[2018.11.15-22.46.10:420][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.46.12:338][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.46.24:151][261]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.15-22.46.24:259][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.46.25:644][359]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.46.25:659][359]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.46.34:936][909]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.15-22.46.35:046][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.46.40:087][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.46.42:037][161]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Ranger_animation189B7B8C4DE3D81465A5CE99C5E5A913.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/BP_Ranger_animation.uasset'
+[2018.11.15-22.47.15:980][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.478
+[2018.11.15-22.47.15:991][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/cuerpoCompleto3] ([1] browsable assets)...
+[2018.11.15-22.47.16:079][518]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Modelos/brazos/cuerpoCompleto3.cuerpoCompleto3]
+[2018.11.15-22.47.16:080][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/cuerpoCompleto3]
+[2018.11.15-22.47.16:132][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/cuerpoCompleto3_Auto17DC7116B4A358D81BDB998BB28BC9353.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/cuerpoCompleto3_Auto1.uasset'
+[2018.11.15-22.47.16:134][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/Default_Material] ([1] browsable assets)...
+[2018.11.15-22.47.16:209][518]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/brazos/Default_Material.Default_Material]
+[2018.11.15-22.47.16:209][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Default_Material]
+[2018.11.15-22.47.16:239][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Default_Material_Auto16DFE484E49789072F51AF68B7538802C.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Default_Material_Auto1.uasset'
+[2018.11.15-22.47.16:241][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/lambert1] ([1] browsable assets)...
+[2018.11.15-22.47.16:311][518]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/brazos/lambert1.lambert1]
+[2018.11.15-22.47.16:312][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/lambert1]
+[2018.11.15-22.47.16:340][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/lambert1_Auto162302B1741A2428CFDAEFE9AE3451F71.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/lambert1_Auto1.uasset'
+[2018.11.15-22.47.16:343][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/Standing_Idle_01] ([1] browsable assets)...
+[2018.11.15-22.47.16:416][518]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Modelos/brazos/Standing_Idle_01.Standing_Idle_01]
+[2018.11.15-22.47.16:416][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Standing_Idle_01]
+[2018.11.15-22.47.16:715][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_Auto12845554B4C0D257DD92A2CA4B8E54D99.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Standing_Idle_01_Auto1.uasset'
+[2018.11.15-22.47.16:719][518]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Modelos/brazos/Standing_Idle_01_Skeleton] ([1] browsable assets)...
+[2018.11.15-22.47.16:719][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Standing_Idle_01_Skeleton]
+[2018.11.15-22.47.16:759][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_Skeleton_Auto14167EE8B4DAF41A9DA2AA79805B96496.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Standing_Idle_01_Skeleton_Auto1.uasset'
+[2018.11.15-22.47.16:762][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset] ([1] browsable assets)...
+[2018.11.15-22.47.16:841][518]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset.Standing_Idle_01_PhysicsAsset]
+[2018.11.15-22.47.16:841][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset]
+[2018.11.15-22.47.16:902][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_PhysicsAsset_Au0B41D6C6492728A61C7EB584A35375C7.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Standing_Idle_01_PhysicsAsset_Auto1.uasset'
+[2018.11.15-22.47.16:914][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/Standing_Run_Forward_1_] ([1] browsable assets)...
+[2018.11.15-22.47.16:989][518]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Modelos/brazos/Standing_Run_Forward_1_.Standing_Run_Forward_1_]
+[2018.11.15-22.47.16:989][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Standing_Run_Forward_1_]
+[2018.11.15-22.47.17:325][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Run_Forward_1__Auto1C70EC92A4CD292D196ED1C9B9C7E3524.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Standing_Run_Forward_1__Auto1.uasset'
+[2018.11.15-22.47.17:328][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset] ([1] browsable assets)...
+[2018.11.15-22.47.17:396][518]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset.Standing_Run_Forward_1__PhysicsAsset]
+[2018.11.15-22.47.17:396][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset]
+[2018.11.15-22.47.17:458][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Run_Forward_1__PhysicsAF68F096B4280D11ACDB8EEA0D7B12360.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset_Auto1.uasset'
+[2018.11.15-22.47.17:461][518]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Modelos/brazos/BP_Ranger_animation] ([1] browsable assets)...
+[2018.11.15-22.47.17:461][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/brazos/BP_Ranger_animation]
+[2018.11.15-22.47.18:113][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Ranger_animation_Auto1F3B8289C4001C8B1868A17805E235F36.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/brazos/BP_Ranger_animation_Auto1.uasset'
+[2018.11.15-22.47.18:116][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Ranger] ([1] browsable assets)...
+[2018.11.15-22.47.18:315][518]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Ranger.Ranger]
+[2018.11.15-22.47.18:315][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Ranger]
+[2018.11.15-22.47.18:506][518]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Ranger_Auto1BC978F7F4F7B3ADF40413E92AC2E3253.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Ranger_Auto1.uasset'
+[2018.11.15-22.47.18:551][518]LogFileHelpers: Auto-saving content packages took 2.568
+[2018.11.15-22.47.27:017][609]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-22.47.27:172][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-22.47.27:185][609]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.15-22.47.27:194][609]LogPlayLevel: [PlayLevel] Compiling Ranger before play...
+[2018.11.15-22.47.27:501][609]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (1 blueprints)
+[2018.11.15-22.47.27:953][609]PIE: New page: PIE session: Minimal_Default (Nov 15, 2018, 10:47:27 AM)
+[2018.11.15-22.47.27:960][609]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.15-22.47.28:064][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103082s)
+[2018.11.15-22.47.28:066][609]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.15-22.47.28:073][609]LogPlayLevel: PIE: World Init took: (0.009328s)
+[2018.11.15-22.47.28:083][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.122870s)
+[2018.11.15-22.47.28:178][609]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.15-22.47.28:186][609]LogInit: FAudioDevice initialized.
+[2018.11.15-22.47.28:441][609]LogLoad: Game class is 'Modo1_C'
+[2018.11.15-22.47.28:453][609]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.15-16.47.28
+[2018.11.15-22.47.28:469][609]LogWorld: Bringing up level for play took: 0.018590
+[2018.11.15-22.47.28:711][609]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2018.11.15-22.47.28:732][609]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-22.47.28:733][609]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-22.47.28:733][609]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-22.47.28:881][609]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-22.47.28:902][609]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.372
+[2018.11.15-22.47.28:902][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-22.47.37:745][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-22.47.37:807][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.47.37:875][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-22.47.37:877][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-22.47.37:986][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-22.47.38:100][769]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.11.15-22.47.39:680][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.47.55:836][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.47.55:960][248]BlueprintLog: New page: Compile Ranger
+[2018.11.15-22.48.45:186][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.49.16:268][559]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Ranger_animation065D33A944332542412C82B8D5303F68.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/BP_Ranger_animation.uasset'
+[2018.11.15-22.49.20:529][672]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Modelos/brazos/Standing_Idle_01_Anim.Standing_Idle_01_Anim
+[2018.11.15-22.49.20:567][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.49.20:609][672]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.49.21:163][672]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.49.30:272][854]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/brazos/Ide_Run.Ide_Run
+[2018.11.15-22.49.30:302][854]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.49.30:338][854]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.49.30:854][854]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.49.45:706][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/Ide_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Ide_Run.uasset" SILENT=true
+[2018.11.15-22.49.46:460][182]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Ide_Run515A06864D6AE5874F670ABDE945A101.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Ide_Run.uasset'
+[2018.11.15-22.50.16:099][656]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.15-22.50.16:099][656]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.15-22.50.16:207][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.50.19:561][688]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.50.23:323][764]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Ranger_animationEF590C084297098716AA87A82398483F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/BP_Ranger_animation.uasset'
+[2018.11.15-22.50.45:230][275]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Modelos/goblin/Goblin_Walking_Skeleton.Goblin_Walking_Skeleton
+[2018.11.15-22.50.45:289][275]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.50.45:707][275]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.50.53:794][393]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Walking_SkeletonB7F176F4402D4AB93060C2A4D08299BC.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Walking_Skeleton.uasset'
+[2018.11.15-22.51.00:532][584]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Walking_SkeletonA2677DEA4CCE727F6038FDA2B3B9DC79.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Walking_Skeleton.uasset'
+[2018.11.15-22.51.20:160][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.51.29:239][319]BlueprintLog: New page: Compile Ranger
+[2018.11.15-22.51.30:943][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.11.15-22.51.31:002][354]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/RangerBD4AD89C4A236853303FBF990542C2EB.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.11.15-22.51.34:872][470]BlueprintLog: New page: Compile BP_Goblin_Move
+[2018.11.15-22.51.35:977][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/BP_Goblin_Move" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/BP_Goblin_Move.uasset" SILENT=true
+[2018.11.15-22.51.36:046][489]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Goblin_MoveFBBB31A64B0A0F86C7FA5CBACA731A33.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/BP_Goblin_Move.uasset'
+[2018.11.15-22.51.45:651][775]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/goblin/Goblin_Idle_Run.Goblin_Idle_Run
+[2018.11.15-22.51.45:683][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.51.45:725][775]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.51.46:219][775]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.51.54:646][912]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Run.fbx]
+[2018.11.15-22.51.54:887][912]LogFbx: Loading FBX Scene from C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Run.fbx
+[2018.11.15-22.51.55:073][912]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.51.55:079][912]LogFbx: =================================================
+[2018.11.15-22.51.55:079][912]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.51.55:079][912]LogFbx: 	Total Deformer Count 402210648.
+[2018.11.15-22.51.55:079][912]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.51.55:079][912]LogFbx: =================================================
+[2018.11.15-22.51.55:079][912]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.51.55:079][912]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.51.55:079][912]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.51.55:080][912]LogFbx: =================================================
+[2018.11.15-22.51.55:080][912]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.51.55:080][912]LogFbx: 	Total Deformer Count 402210592.
+[2018.11.15-22.51.55:080][912]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.51.55:080][912]LogFbx: =================================================
+[2018.11.15-22.51.55:080][912]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.51.55:080][912]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.51.55:080][912]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.51.55:085][912]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.15-22.51.55:380][912]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/goblin/Goblin_Run_Anim.Goblin_Run_Anim
+[2018.11.15-22.51.55:382][912]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Goblin_Run_Anim) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.51.55:434][912]LogEditorFactories: -- imported successfully
+[2018.11.15-22.52.08:935][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.52.14:556][277]Cmd: TRANSACTION UNDO
+[2018.11.15-22.52.14:556][277]LogEditorTransaction: Undo Translate Bone
+[2018.11.15-22.52.14:581][277]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.52.15:323][277]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.52.15:330][277]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.52.15:357][277]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.52.28:366][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.52.28:956][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Idle_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset" SILENT=true
+[2018.11.15-22.52.29:549][549]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Idle_Run820F81B749F7221AA98133A3A74F18A0.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset'
+[2018.11.15-22.52.38:187][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Walking.fbx]
+[2018.11.15-22.52.39:058][700]LogFbx: Loading FBX Scene from C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Walking.fbx
+[2018.11.15-22.52.39:166][700]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.52.39:172][700]LogFbx: =================================================
+[2018.11.15-22.52.39:172][700]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.52.39:172][700]LogFbx: 	Total Deformer Count -1885715216.
+[2018.11.15-22.52.39:172][700]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.52.39:172][700]LogFbx: =================================================
+[2018.11.15-22.52.39:172][700]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.52.39:172][700]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.52.39:172][700]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.52.39:172][700]LogFbx: =================================================
+[2018.11.15-22.52.39:172][700]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.52.39:172][700]LogFbx: 	Total Deformer Count -1885711072.
+[2018.11.15-22.52.39:172][700]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.52.39:172][700]LogFbx: =================================================
+[2018.11.15-22.52.39:172][700]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.52.39:172][700]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.52.39:173][700]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.52.39:177][700]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.15-22.52.39:605][700]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/goblin/Goblin_Walking_Anim.Goblin_Walking_Anim
+[2018.11.15-22.52.39:608][700]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Goblin_Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.52.39:648][700]LogEditorFactories: -- imported successfully
+[2018.11.15-22.52.50:726][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Idle_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset" SILENT=true
+[2018.11.15-22.52.50:761][922]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Idle_Run231D25F84376D92190403FA66DF00C6C.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset'
+[2018.11.15-22.53.02:968][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.53.10:523][383]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Modelos/goblin/Goblin_Run_Anim.Goblin_Run_Anim
+[2018.11.15-22.53.19:729][532]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Modelos/goblin/Goblin_Walking_Anim.Goblin_Walking_Anim
+[2018.11.15-22.53.19:759][532]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.53.19:796][532]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-22.53.20:707][532]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-22.53.26:493][631]Cmd: TRANSACTION UNDO
+[2018.11.15-22.53.26:493][631]LogEditorTransaction: Undo Translate Bone
+[2018.11.15-22.53.26:494][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.53.27:102][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.53.27:106][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.53.27:116][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-22.53.27:447][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.53.35:599][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.53.35:853][804]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Walking_Anim390ECF014FD94D937ACF39999A95810D.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Walking_Anim.uasset'
+[2018.11.15-22.53.36:722][823]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Walking.fbx]
+[2018.11.15-22.53.36:826][823]LogFbx: Loading FBX Scene from C:/Users/Familia/Desktop/V2/Modelos V2/Modelos V2/goblin/Goblin Walking.fbx
+[2018.11.15-22.53.36:887][823]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-22.53.36:892][823]LogFbx: =================================================
+[2018.11.15-22.53.36:892][823]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.53.36:892][823]LogFbx: 	Total Deformer Count 1529223384.
+[2018.11.15-22.53.36:892][823]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.53.36:892][823]LogFbx: =================================================
+[2018.11.15-22.53.36:892][823]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.53.36:892][823]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.53.36:892][823]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.53.36:893][823]LogFbx: =================================================
+[2018.11.15-22.53.36:893][823]LogFbx: Dumping Node START [lowPoly2] 
+[2018.11.15-22.53.36:893][823]LogFbx: 	Total Deformer Count 1529223664.
+[2018.11.15-22.53.36:893][823]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.11.15-22.53.36:893][823]LogFbx: =================================================
+[2018.11.15-22.53.36:893][823]LogFbx: 	Attribute () Type (4).
+[2018.11.15-22.53.36:893][823]LogFbx: 		[Node Attribute Child 1] lowPoly2 (Type Mesh).
+[2018.11.15-22.53.36:893][823]LogFbx: Dumping Node END [lowPoly2]
+[2018.11.15-22.53.36:897][823]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.15-22.53.37:438][823]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Modelos/goblin/Goblin_Walking_Anim.Goblin_Walking_Anim
+[2018.11.15-22.53.37:439][823]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-22.53.37:464][823]LogEditorFactories: -- imported successfully
+[2018.11.15-22.53.53:191][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Idle_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset" SILENT=true
+[2018.11.15-22.53.53:218][ 90]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Idle_Run117CD97742C86D56AA1D26B821C1FABE.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset'
+[2018.11.15-22.54.08:858][510]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-22.54.09:576][511]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-22.54.10:081][511]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-22.54.10:584][512]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-22.54.22:581][838]BlueprintLog: New page: Compile BP_Goblin_Move
+[2018.11.15-22.54.36:138][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.55.01:340][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.55.21:988][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.55.44:904][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.55.51:369][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.56.05:056][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.56.10:609][344]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.56.22:429][566]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.56.23:756][578]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.56.33:684][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.56.37:199][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.56.37:270][888]BlueprintLog: New page: Compile Ranger
+[2018.11.15-22.56.38:464][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.11.15-22.56.38:538][910]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/RangerF3C65F7A44EF0A3FC71AB2B1E1D5397E.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.11.15-22.56.40:054][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.56.40:075][939]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.56.44:369][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.56.50:351][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-22.56.50:457][174]BlueprintLog: New page: Compile Ranger
+[2018.11.15-22.56.52:250][198]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.15-22.57.01:724][424]BlueprintLog: New page: Compile Ranger
+[2018.11.15-22.57.02:649][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.11.15-22.57.02:711][438]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Ranger1FA71AB54096C85E63CD27BEDCDC3F4B.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.11.15-22.57.31:719][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2018.11.15-22.57.31:722][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/goblin/BP_Goblin_Move] ([1] browsable assets)...
+[2018.11.15-22.57.31:775][566]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Modelos/goblin/BP_Goblin_Move.BP_Goblin_Move]
+[2018.11.15-22.57.31:775][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/goblin/BP_Goblin_Move]
+[2018.11.15-22.57.32:248][566]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Goblin_Move_Auto2055BA34344524D422F6B6B879C1CAA4F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/goblin/BP_Goblin_Move_Auto2.uasset'
+[2018.11.15-22.57.32:342][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/goblin/Goblin_Run_Anim] ([1] browsable assets)...
+[2018.11.15-22.57.32:405][566]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Modelos/goblin/Goblin_Run_Anim.Goblin_Run_Anim]
+[2018.11.15-22.57.32:406][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/goblin/Goblin_Run_Anim]
+[2018.11.15-22.57.32:471][566]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Run_Anim_Auto2C17227E3451ECE283D8599ADDE2EA84F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/goblin/Goblin_Run_Anim_Auto2.uasset'
+[2018.11.15-22.57.32:497][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/goblin/Goblin_Walking_Anim] ([1] browsable assets)...
+[2018.11.15-22.57.32:545][566]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Modelos/goblin/Goblin_Walking_Anim.Goblin_Walking_Anim]
+[2018.11.15-22.57.32:545][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/goblin/Goblin_Walking_Anim]
+[2018.11.15-22.57.32:595][566]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Walking_Anim_Auto2F6B2238241A5B3B7689D7F830B21FA4F.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Autosaves/Game/Modelos/goblin/Goblin_Walking_Anim_Auto2.uasset'
+[2018.11.15-22.57.32:597][566]LogFileHelpers: Auto-saving content packages took 0.876
+[2018.11.15-22.58.01:917][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-22.58.11:853][887]LogSlate: Window 'Create New Animation Object' being destroyed
+[2018.11.15-23.00.27:634][856]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.00.31:550][857]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.00.33:130][868]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/goblin/Goblin_Idle_Run.Goblin_Idle_Run
+[2018.11.15-23.00.33:178][868]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.33:218][868]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-23.00.33:924][868]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-23.00.45:395][103]Cmd: TRANSACTION UNDO
+[2018.11.15-23.00.45:395][103]LogEditorTransaction: Undo Translate Bone
+[2018.11.15-23.00.45:397][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.45:981][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.45:985][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.45:988][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.46:003][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-23.00.48:626][152]Cmd: TRANSACTION UNDO
+[2018.11.15-23.00.48:626][152]LogEditorTransaction: Undo Translate Bone
+[2018.11.15-23.00.48:627][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.49:272][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.49:274][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.49:277][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.00.49:640][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-23.00.57:710][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-23.00.57:838][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Idle_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset" SILENT=true
+[2018.11.15-23.00.57:884][322]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Idle_Run6B145A0A46174D005CF9A3B626955538.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset'
+[2018.11.15-23.01.05:967][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Idle_Run" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset" SILENT=true
+[2018.11.15-23.01.05:993][483]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Idle_Run70D8DBBB4F75469AB28CB39E3C26E9DF.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Idle_Run.uasset'
+[2018.11.15-23.01.23:331][776]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/goblin/Goblin_Idle_Run.Goblin_Idle_Run
+[2018.11.15-23.01.23:393][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.23:430][776]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-23.01.24:788][776]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-23.01.45:679][177]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.46:345][178]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.47:022][179]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.47:711][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.48:377][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.49:633][182]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.49:634][182]Cmd: TRANSACTION UNDO
+[2018.11.15-23.01.49:634][182]LogEditorTransaction: Undo Edit Orbit Yaw
+[2018.11.15-23.01.49:635][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.50:322][182]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.50:855][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.50:857][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.50:868][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.50:874][182]Cmd: TRANSACTION UNDO
+[2018.11.15-23.01.50:874][182]LogEditorTransaction: Undo Edit Orbit Yaw
+[2018.11.15-23.01.50:875][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.51:536][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.51:539][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.51:564][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.52:472][182]Cmd: TRANSACTION UNDO
+[2018.11.15-23.01.52:472][182]LogEditorTransaction: Undo Translate Bone
+[2018.11.15-23.01.52:474][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:138][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:141][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:144][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:147][182]Cmd: TRANSACTION UNDO
+[2018.11.15-23.01.53:147][182]LogEditorTransaction: Undo Move Node
+[2018.11.15-23.01.53:249][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:969][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:971][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.53:975][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.54:781][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.54:782][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-23.01.55:403][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.55:908][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.55:909][186]Cmd: TRANSACTION UNDO
+[2018.11.15-23.01.55:909][186]LogEditorTransaction: Undo Move Node
+[2018.11.15-23.01.55:918][186]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.56:535][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.57:122][186]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.57:124][186]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.57:127][186]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.01.57:765][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.01.58:269][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.02.00:302][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.02.24:526][674]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/goblin/Goblin_Idle_Run.Goblin_Idle_Run
+[2018.11.15-23.02.24:547][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.02.24:583][674]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-23.02.25:076][674]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-23.02.25:591][677]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.02.26:092][677]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.02.53:878][124]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace1D /Game/Modelos/brazos/Ide_Run.Ide_Run
+[2018.11.15-23.02.53:967][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.15-23.02.54:033][124]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.15-23.02.54:601][124]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.15-23.03.42:939][438]BlueprintLog: New page: Compile BP_Ranger_animation
+[2018.11.15-23.03.54:715][506]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Ranger_animationEADF4EF84EC23C7B4C9831B4C69D91BA.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/BP_Ranger_animation.uasset'
+[2018.11.15-23.07.33:656][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2018.11.15-23.17.33:839][811]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.047
+[2018.11.15-23.19.18:259][783]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-23.19.18:323][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-23.19.18:323][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-23.19.18:324][783]PIE: New page: PIE session: Minimal_Default (Nov 15, 2018, 11:19:18 AM)
+[2018.11.15-23.19.18:324][783]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.15-23.19.18:732][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.408534s)
+[2018.11.15-23.19.18:735][783]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.15-23.19.18:735][783]LogPlayLevel: PIE: World Init took: (0.002760s)
+[2018.11.15-23.19.18:736][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.411706s)
+[2018.11.15-23.19.18:836][783]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.15-23.19.18:854][783]LogInit: FAudioDevice initialized.
+[2018.11.15-23.19.18:943][783]LogLoad: Game class is 'Modo1_C'
+[2018.11.15-23.19.18:947][783]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.15-17.19.18
+[2018.11.15-23.19.18:947][783]LogWorld: Bringing up level for play took: 0.003081
+[2018.11.15-23.19.18:974][783]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-23.19.18:975][783]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-23.19.18:975][783]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-23.19.18:979][783]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-23.19.18:979][783]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.449
+[2018.11.15-23.19.18:979][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-23.19.45:329][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-23.19.45:330][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-23.19.45:414][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-23.19.45:414][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.15-23.19.45:482][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-23.19.45:583][242]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2018.11.15-23.19.54:219][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.19.54:721][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.19.56:222][290]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.21.09:751][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-23.28.01:428][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.081
+[2018.11.15-23.34.16:508][385]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.36.14:096][736]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.36.14:598][737]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.38.02:094][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.061
+[2018.11.15-23.38.03:169][ 61]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.39.28:504][321]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.41.16:493][784]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.41.19:469][792]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.41.19:971][793]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.47.48:873][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.47.49:374][951]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.47.50:095][953]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.47.50:596][954]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.47.51:098][955]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.48.03:080][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.062
+[2018.11.15-23.48.03:711][991]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.15-23.58.03:480][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.069
+[2018.11.16-00.06.20:013][260]LogHttp: Warning: 0000025389B302C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.16-00.06.20:013][260]LogHttp: Warning: 0000025389B302C0: libcurl info message cache 0 (Connection 42 seems to be dead!)
+[2018.11.16-00.06.20:013][260]LogHttp: Warning: 0000025389B302C0: libcurl info message cache 1 (Closing connection 42)
+[2018.11.16-00.06.20:013][260]LogHttp: Warning: 0000025389B302C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.11.16-00.06.20:014][260]LogHttp: Warning: 0000025389B302C0: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.16-00.06.20:014][260]LogHttp: Warning: 0000025389B302C0: libcurl info message cache 4 (Closing connection 43)
+[2018.11.16-00.08.03:867][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.056
+[2018.11.16-00.18.04:937][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.084
+[2018.11.16-00.28.05:361][145]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.065
+[2018.11.16-00.38.05:837][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.066
+[2018.11.16-00.47.43:459][649]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.16-00.48.07:984][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.531
+[2018.11.16-00.58.08:672][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.273
+[2018.11.16-01.08.09:443][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.081
+[2018.11.16-01.18.09:950][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.076
+[2018.11.16-01.28.11:121][938]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.772
+[2018.11.16-01.38.11:631][722]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.146
+[2018.11.16-01.48.11:964][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.085
+[2018.11.16-01.58.13:138][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.085
+[2018.11.16-02.08.13:346][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.051
+[2018.11.16-02.18.13:817][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2018.11.16-02.28.14:491][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.057
+[2018.11.16-02.38.15:032][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.067
+[2018.11.16-02.48.15:689][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.062
+[2018.11.16-02.58.19:772][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.505
+[2018.11.16-03.08.20:327][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.074
+[2018.11.16-03.18.20:824][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.088
+[2018.11.16-03.28.21:781][458]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.525
+[2018.11.16-03.38.22:318][249]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.069
+[2018.11.16-03.48.22:736][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.056
+[2018.11.16-03.50.20:923][370]LogHttp: Warning: 0000025389B30180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.16-03.50.20:923][370]LogHttp: Warning: 0000025389B30180: libcurl info message cache 0 (Connection 137 seems to be dead!)
+[2018.11.16-03.50.20:947][370]LogHttp: Warning: 0000025389B30180: libcurl info message cache 1 (Closing connection 137)
+[2018.11.16-03.50.20:947][370]LogHttp: Warning: 0000025389B30180: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.11.16-03.50.20:947][370]LogHttp: Warning: 0000025389B30180: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.16-03.50.20:947][370]LogHttp: Warning: 0000025389B30180: libcurl info message cache 4 (Closing connection 138)
+[2018.11.16-03.58.25:241][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.517
+[2018.11.16-04.08.25:744][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.063
+[2018.11.16-04.18.27:081][363]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.122
+[2018.11.16-04.28.23:063][165]LogSlate: Window 'Save Content' being destroyed
+[2018.11.16-04.28.23:814][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/cuerpoCompleto3" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/cuerpoCompleto3.uasset" SILENT=true
+[2018.11.16-04.28.24:891][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/cuerpoCompleto39381D8E5413475EC534DE9867B4214C5.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/cuerpoCompleto3.uasset'
+[2018.11.16-04.28.25:506][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/Default_Material" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Default_Material.uasset" SILENT=true
+[2018.11.16-04.28.25:772][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Default_MaterialEE58576D45F5E15E17C28BBD162C5248.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Default_Material.uasset'
+[2018.11.16-04.28.25:793][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/lambert1" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/lambert1.uasset" SILENT=true
+[2018.11.16-04.28.25:859][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/lambert135A9419C481DE2B98B570CA1876989AA.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/lambert1.uasset'
+[2018.11.16-04.28.26:070][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/brazos/Standing_Idle_01" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Idle_01.uasset" SILENT=true
+[2018.11.16-04.28.26:840][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01D2A69226420D80C90894CA8CC8855A90.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Idle_01.uasset'
+[2018.11.16-04.28.27:561][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_PhysicsAsset8508B3EE47FDC36D18F8B885827F4B2C.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Idle_01_PhysicsAsset.uasset'
+[2018.11.16-04.28.27:901][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Idle_01_Skeleton46246CE248C1E4B7A4DF79B53E6273FA.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Idle_01_Skeleton.uasset'
+[2018.11.16-04.28.28:621][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Run_Forward_1_AA7E7770489629CFAD874DA407D65A6B.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Run_Forward_1_.uasset'
+[2018.11.16-04.28.28:884][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Standing_Run_Forward_1__PhysicsA67F0D2DD422A10E8F7FA87A3B433A0F0.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/brazos/Standing_Run_Forward_1__PhysicsAsset.uasset'
+[2018.11.16-04.28.29:092][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/BP_Goblin_Move" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/BP_Goblin_Move.uasset" SILENT=true
+[2018.11.16-04.28.34:313][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/BP_Goblin_MoveDED8D84B42901AB36908C8B0CD9DC5DA.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/BP_Goblin_Move.uasset'
+[2018.11.16-04.28.34:422][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/goblin/Goblin_Run_Anim" FILE="C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Run_Anim.uasset" SILENT=true
+[2018.11.16-04.28.35:481][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Run_Anim09BCC237462B2167CA5D7282BE691E44.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Run_Anim.uasset'
+[2018.11.16-04.28.36:184][165]LogSavePackage: Moving 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Saved/Goblin_Walking_Anim136802B6473B357C19A1179F024F20E7.tmp' to 'C:/Users/Familia/Desktop/V2/ProyectoFaceTerreno/ProyectoFaceTerreno/Content/Modelos/goblin/Goblin_Walking_Anim.uasset'
+[2018.11.16-04.30.59:572][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.16-04.31.55:598][165]LogSlate: Window 'ProyectoFaceTerreno - Unreal Editor' being destroyed
+[2018.11.16-04.32.27:248][166]Cmd: QUIT_EDITOR
+[2018.11.16-04.32.34:046][166]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.16-04.32.42:141][166]LogExit: Preparing to exit.
+[2018.11.16-04.33.53:727][166]LogExit: Editor shut down
+[2018.11.16-04.33.53:926][166]LogExit: Transaction tracking system shut down
+[2018.11.16-04.35.02:877][166]LogExit: Object subsystem successfully closed.
+[2018.11.16-04.35.06:182][166]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.16-04.35.08:034][166]LogD3D11RHI: Shutdown
+[2018.11.16-04.35.08:034][166]LogD3D11RHI: CleanupD3DDevice
+[2018.11.16-04.35.16:095][166]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.16-04.35.19:170][166]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2018.11.16-04.35.19:225][166]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2018.11.16-04.35.19:228][166]LogModuleManager: Shutting down and abandoning module BlueprintGraph (624)
+[2018.11.16-04.35.19:240][166]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (622)
+[2018.11.16-04.35.19:240][166]LogModuleManager: Shutting down and abandoning module AnimationEditor (620)
+[2018.11.16-04.35.19:240][166]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (618)
+[2018.11.16-04.35.19:240][166]LogModuleManager: Shutting down and abandoning module PinnedCommandList (616)
+[2018.11.16-04.35.19:240][166]LogModuleManager: Shutting down and abandoning module SkeletonEditor (614)
+[2018.11.16-04.35.19:247][166]LogModuleManager: Shutting down and abandoning module MeshBuilder (612)
+[2018.11.16-04.35.19:261][166]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.11.16-04.35.19:283][166]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.11.16-04.35.19:283][166]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.11.16-04.35.21:114][166]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.11.16-04.35.21:114][166]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.11.16-04.35.21:151][166]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.11.16-04.35.21:184][166]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.11.16-04.35.21:268][166]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.11.16-04.35.21:268][166]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.11.16-04.35.21:511][166]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.11.16-04.35.21:557][166]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.11.16-04.35.21:557][166]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.11.16-04.35.21:557][166]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.11.16-04.35.21:571][166]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.11.16-04.35.21:571][166]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.11.16-04.35.21:590][166]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.11.16-04.35.21:603][166]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.11.16-04.35.21:681][166]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.11.16-04.35.21:703][166]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.11.16-04.35.21:708][166]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.11.16-04.35.21:723][166]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.11.16-04.35.21:786][166]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.11.16-04.35.21:875][166]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.11.16-04.35.21:875][166]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.11.16-04.35.21:893][166]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.11.16-04.35.21:906][166]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.11.16-04.35.21:906][166]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.11.16-04.35.21:927][166]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.11.16-04.35.21:927][166]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.11.16-04.35.21:927][166]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.11.16-04.35.21:956][166]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.11.16-04.35.21:964][166]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.11.16-04.35.21:964][166]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.11.16-04.35.21:989][166]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.11.16-04.35.22:001][166]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.11.16-04.35.22:009][166]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.11.16-04.35.22:009][166]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.11.16-04.35.22:009][166]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.11.16-04.35.22:057][166]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.11.16-04.35.22:072][166]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.11.16-04.35.22:173][166]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.11.16-04.35.22:262][166]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.11.16-04.35.22:268][166]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.11.16-04.35.22:269][166]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.11.16-04.35.22:327][166]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.11.16-04.35.22:327][166]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.11.16-04.35.22:327][166]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.11.16-04.35.23:024][166]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.11.16-04.35.23:024][166]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.11.16-04.35.23:024][166]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.11.16-04.35.23:024][166]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.11.16-04.35.23:024][166]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.11.16-04.35.23:083][166]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.11.16-04.35.23:097][166]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.11.16-04.35.23:124][166]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.11.16-04.35.23:134][166]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.11.16-04.35.23:134][166]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.11.16-04.35.23:147][166]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.11.16-04.35.23:157][166]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.11.16-04.35.23:157][166]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.11.16-04.35.23:169][166]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.11.16-04.35.23:278][166]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.11.16-04.35.23:333][166]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.11.16-04.35.23:403][166]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.11.16-04.35.23:411][166]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.11.16-04.35.23:440][166]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.11.16-04.35.23:452][166]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.11.16-04.35.23:469][166]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.11.16-04.35.23:476][166]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.11.16-04.35.23:681][166]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.11.16-04.35.23:743][166]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.11.16-04.35.23:760][166]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.11.16-04.35.23:775][166]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.11.16-04.35.23:775][166]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.11.16-04.35.23:878][166]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.11.16-04.35.23:888][166]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.11.16-04.35.23:900][166]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.11.16-04.35.23:900][166]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.11.16-04.35.23:900][166]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.11.16-04.35.26:022][166]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.11.16-04.35.26:105][166]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.11.16-04.35.26:732][166]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.11.16-04.35.26:732][166]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.16-04.35.26:787][166]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.16-04.35.26:846][166]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.16-04.35.26:858][166]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.16-04.35.26:867][166]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.16-04.35.27:073][166]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.16-04.35.27:073][166]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.16-04.35.27:073][166]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.16-04.35.27:087][166]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.16-04.35.27:190][166]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.16-04.35.27:193][166]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.16-04.35.27:204][166]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.16-04.35.27:204][166]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.11.16-04.35.27:204][166]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.11.16-04.35.27:449][166]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.11.16-04.35.27:488][166]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.11.16-04.35.27:488][166]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.11.16-04.35.27:488][166]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.11.16-04.35.27:501][166]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.11.16-04.35.27:501][166]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.11.16-04.35.27:501][166]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.11.16-04.35.27:518][166]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.11.16-04.35.27:547][166]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.11.16-04.35.27:547][166]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.11.16-04.35.27:547][166]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.11.16-04.35.27:548][166]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.11.16-04.35.27:622][166]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.16-04.35.27:622][166]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.16-04.35.27:622][166]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.16-04.35.27:622][166]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.16-04.35.27:630][166]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.16-04.35.27:630][166]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.16-04.35.27:630][166]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.16-04.35.27:630][166]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.16-04.35.27:667][166]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.16-04.35.27:667][166]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.16-04.35.27:667][166]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.16-04.35.27:686][166]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.16-04.35.27:687][166]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.16-04.35.27:687][166]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.16-04.35.27:708][166]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.16-04.35.27:719][166]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.16-04.35.27:719][166]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.16-04.35.27:727][166]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.16-04.35.27:732][166]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.16-04.35.27:732][166]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.16-04.35.27:742][166]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.16-04.35.27:770][166]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.16-04.35.27:770][166]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.16-04.35.27:776][166]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.16-04.35.27:828][166]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.16-04.35.27:847][166]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.16-04.35.27:977][166]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.16-04.35.28:003][166]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.16-04.35.28:003][166]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.16-04.35.28:003][166]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.16-04.35.28:003][166]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.16-04.35.28:233][166]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.16-04.35.28:248][166]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.16-04.35.28:330][166]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.16-04.35.28:336][166]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.16-04.35.28:336][166]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.16-04.35.28:348][166]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.16-04.35.28:348][166]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.16-04.35.28:348][166]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.16-04.35.28:348][166]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.16-04.35.28:348][166]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.16-04.35.28:450][166]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.16-04.35.28:560][166]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.16-04.35.28:560][166]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.16-04.35.28:568][166]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.16-04.35.28:572][166]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.16-04.35.28:572][166]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.16-04.35.28:577][166]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.16-04.35.28:616][166]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.16-04.35.29:313][166]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.16-04.35.29:342][166]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.16-04.35.29:620][166]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.16-04.35.29:628][166]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.16-04.35.29:663][166]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.16-04.35.30:123][166]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.16-04.35.30:181][166]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.16-04.35.30:181][166]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.16-04.35.30:200][166]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.16-04.35.30:210][166]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.16-04.35.30:247][166]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.16-04.35.30:362][166]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.16-04.35.30:407][166]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.16-04.35.30:443][166]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.16-04.35.30:443][166]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.16-04.35.30:510][166]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.16-04.35.30:510][166]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.16-04.35.30:510][166]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.16-04.35.30:510][166]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.16-04.35.30:517][166]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.16-04.35.30:525][166]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.16-04.35.30:525][166]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.16-04.35.30:557][166]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.16-04.35.30:563][166]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.16-04.35.30:585][166]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.16-04.35.30:644][166]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.16-04.35.30:644][166]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.16-04.35.30:644][166]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.16-04.35.30:744][166]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.16-04.35.30:745][166]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.16-04.35.30:794][166]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.16-04.35.30:794][166]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.16-04.35.31:389][166]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.16-04.35.31:389][166]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.16-04.35.31:443][166]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.16-04.35.31:443][166]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.16-04.35.31:443][166]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.16-04.35.31:467][166]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.16-04.35.31:467][166]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.16-04.35.31:467][166]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.16-04.35.31:467][166]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.16-04.35.31:501][166]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.16-04.35.31:516][166]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.16-04.35.31:516][166]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.16-04.35.31:528][166]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.16-04.35.31:564][166]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.16-04.35.31:581][166]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.16-04.35.31:584][166]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.16-04.35.31:605][166]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.16-04.35.32:061][166]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.16-04.35.32:162][166]LogDerivedDataCache: Shutdown
+[2018.11.16-04.35.32:162][166]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.16-04.35.32:309][166]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.16-04.35.32:354][166]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.16-04.35.32:389][166]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.16-04.35.32:431][166]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.16-04.35.32:432][166]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.16-04.35.32:443][166]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.16-04.35.32:458][166]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.16-04.35.32:492][166]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.16-04.35.32:492][166]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.16-04.35.32:492][166]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.16-04.35.32:568][166]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.16-04.35.32:568][166]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.16-04.35.32:568][166]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.16-04.35.32:582][166]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.16-04.35.32:582][166]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.16-04.35.32:582][166]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.16-04.35.32:622][166]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.16-04.35.32:630][166]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.16-04.35.32:691][166]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.16-04.35.32:699][166]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.16-04.35.32:700][166]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.16-04.35.32:700][166]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.16-04.35.33:858][166]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.16-04.35.33:858][166]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.16-04.35.34:364][166]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.16-04.35.34:365][166]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.16-04.35.36:936][166]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.16-04.35.36:936][166]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.16-04.35.36:992][166]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.16-04.35.36:993][166]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.16-04.35.37:009][166]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.16-04.35.37:065][166]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.16-04.35.37:069][166]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.16-04.35.37:080][166]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.16-04.35.37:096][166]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.16-04.35.37:096][166]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.16-04.35.37:096][166]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.16-04.35.37:163][166]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.16-04.35.37:164][166]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.16-04.35.37:164][166]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.16-04.35.37:173][166]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.16-04.35.37:217][166]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.16-04.35.37:231][166]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.16-04.35.37:231][166]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.16-04.35.37:405][166]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.16-04.35.37:432][166]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.16-04.35.38:147][166]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.16-04.35.38:160][166]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.16-04.35.38:160][166]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAF031D3-4593-9B15-97C6-B0A36A6BA55E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=f231cf9243e9d0e5f3eb1da83ece8f8e%7C7a4ecb216ec4484ea57c194a37756d79%7C97b9e824-68fc-499d-8da3-561593c1faa2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.16-04.35.38:557][166]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.16-04.35.39:096][166]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.16-04.35.39:096][166]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.16-04.35.39:096][166]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.16-04.35.39:096][166]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.16-04.35.39:123][166]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.16-04.35.39:123][166]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.16-04.35.39:123][166]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.16-04.35.39:123][166]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.16-04.35.39:123][166]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.16-04.35.39:238][166]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.16-04.35.39:238][166]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.16-04.35.39:273][166]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.16-04.35.39:347][166]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.16-04.35.39:497][166]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.16-04.35.39:511][166]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.16-04.35.39:684][166]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.16-04.35.39:684][166]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.16-04.35.39:684][166]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.16-04.35.40:444][166]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.16-04.35.40:509][166]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.16-04.35.40:509][166]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.16-04.35.40:526][166]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.16-04.35.40:526][166]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.16-04.35.40:526][166]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.16-04.35.40:526][166]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.16-04.35.40:536][166]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.16-04.35.40:537][166]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.16-04.35.40:554][166]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.16-04.35.40:554][166]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.16-04.35.40:811][166]LogExit: Exiting.
+[2018.11.16-04.35.42:365][166]Log file closed, 11/15/18 22:35:42

@@ -1,0 +1,1210 @@
+﻿Log file open, 10/09/18 13:25:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProyectoFaceTerreno
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.246145
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.660s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz, GPU: NVIDIA GeForce GT 430
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.09-18.25.46:482][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-18.25.46:482][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.09-18.25.46:570][  0]LogHAL: Display: Platform has ~ 7 GB [7304781824 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.09-18.25.46:570][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.09-18.25.46:570][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.09-18.25.46:571][  0]LogInit: Computer: DESKTOP-DDT5E5J
+[2018.10.09-18.25.46:571][  0]LogInit: User: Familia
+[2018.10.09-18.25.46:571][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.10.09-18.25.46:571][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2018.10.09-18.25.46:571][  0]LogMemory: Memory total: Physical=6.8GB (7GB approx)
+[2018.10.09-18.25.46:571][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.09-18.25.46:571][  0]LogMemory: Process Physical Memory: 98.80 MB used, 98.80 MB peak
+[2018.10.09-18.25.46:571][  0]LogMemory: Process Virtual Memory: 82.16 MB used, 82.16 MB peak
+[2018.10.09-18.25.46:571][  0]LogMemory: Physical Memory: 3790.46 MB used,  3175.93 MB free, 6966.38 MB total
+[2018.10.09-18.25.46:571][  0]LogMemory: Virtual Memory: 4619.02 MB used,  3175.93 MB free, 134217728.00 MB total
+[2018.10.09-18.25.46:625][  0]LogInit: Using OS detected language (es-MX).
+[2018.10.09-18.25.46:625][  0]LogInit: Using OS detected locale (es-MX).
+[2018.10.09-18.25.46:627][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
+[2018.10.09-18.25.47:210][  0]LogStreaming: Display: Took  0.584s to InitEngineTextLocalization.
+[2018.10.09-18.25.47:210][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.09-18.25.47:316][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.09-18.25.47:316][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.09-18.25.47:729][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-18.25.47:729][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.09-18.25.47:830][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 430' (Feature Level 11_0)
+[2018.10.09-18.25.47:830][  0]LogD3D11RHI:       979/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.09-18.25.47:839][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2018.10.09-18.25.47:839][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.09-18.25.47:843][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.09-18.25.47:843][  0]LogD3D11RHI:       0/0/3483 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.09-18.25.47:843][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.09-18.25.47:852][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.09-18.25.47:852][  0]LogD3D11RHI:     GPU DeviceId: 0xde1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.09-18.25.47:852][  0]LogWindows: EnumDisplayDevices:
+[2018.10.09-18.25.47:852][  0]LogWindows:    0. 'NVIDIA GeForce GT 430' (P:1 D:1)
+[2018.10.09-18.25.47:853][  0]LogWindows:    1. 'NVIDIA GeForce GT 430' (P:0 D:0)
+[2018.10.09-18.25.47:853][  0]LogWindows:    2. 'Intel(R) HD Graphics' (P:0 D:0)
+[2018.10.09-18.25.47:853][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2018.10.09-18.25.47:853][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 430
+[2018.10.09-18.25.47:854][  0]LogD3D11RHI:   Driver Version: 375.57 (internal:21.21.13.7557, unified:375.57)
+[2018.10.09-18.25.47:854][  0]LogD3D11RHI:      Driver Date: 10-18-2016
+[2018.10.09-18.25.47:854][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2018.10.09-18.25.47:888][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.10.09-18.25.47:888][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.09-18.25.47:911][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.09-18.25.47:964][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Intermediate/Shaders/WorkingDirectory/6188/).
+[2018.10.09-18.25.47:964][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Familia/AppData/Local/Temp/UnrealShaderWorkingDir/221E43644217B21D8DD45480F8A8A098/'.
+[2018.10.09-18.25.48:581][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.09-18.25.48:611][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.09-18.25.48:639][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.09-18.25.48:666][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.09-18.25.48:695][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.09-18.25.48:723][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.09-18.25.48:752][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.09-18.25.48:781][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.09-18.25.48:795][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:980][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-18.25.48:987][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.09-18.25.49:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-18.25.49:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-18.25.49:109][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-18.25.49:109][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-18.25.49:132][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.09-18.25.49:158][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.09-18.25.49:186][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.09-18.25.49:216][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.09-18.25.49:236][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.09-18.25.49:236][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.09-18.25.49:323][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.09-18.25.49:323][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.09-18.25.49:323][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.09-18.25.50:620][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.09-18.25.50:752][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.09-18.25.50:753][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.09-18.25.50:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.09-18.25.50:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.09-18.25.50:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.09-18.25.50:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.09-18.25.50:777][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.09-18.25.50:791][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Familia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.09-18.25.50:791][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.09-18.25.50:791][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.09-18.25.50:839][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.09-18.25.50:845][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.09-18.25.50:846][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.09-18.25.50:966][  0]LogAssetRegistry: FAssetRegistry took 0.0343 seconds to start up
+[2018.10.09-18.25.51:670][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-18.25.52:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.09-18.25.52:011][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.09-18.25.52:011][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.09-18.25.52:011][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.09-18.25.52:011][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.09-18.25.52:054][  0]LogNetVersion: ProyectoFaceTerreno 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 396919257)
+[2018.10.09-18.25.53:258][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.313643 seconds
+[2018.10.09-18.25.53:273][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.09-18.25.53:273][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.09-18.25.53:273][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.09-18.25.54:633][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.09-18.25.54:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.09-18.25.54:883][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-18.25.54:883][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-18.25.54:885][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-18.25.54:886][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-18.25.55:097][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.09-18.25.55:173][  0]LogOcInput: OculusInput pre-init called
+[2018.10.09-18.25.55:253][  0]LogEngine: Initializing Engine...
+[2018.10.09-18.25.55:255][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-18.25.55:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.09-18.25.55:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-18.25.55:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-18.25.55:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-18.25.55:620][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.09-18.25.55:643][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.09-18.25.55:669][  0]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-18.25.55:690][  0]LogInit: FAudioDevice initialized.
+[2018.10.09-18.25.55:690][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.09-18.25.57:510][  0]LogDerivedDataCache: Saved boot cache 1.82s 71MB C:/Users/Familia/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.09-18.25.57:528][  0]LogInit: Texture streaming: Enabled
+[2018.10.09-18.25.57:550][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.09-18.25.57:568][  0]LogInit: Transaction tracking system initialized
+[2018.10.09-18.25.57:589][  0]BlueprintLog: New page: Cargar el editor
+[2018.10.09-18.25.57:740][  0]LocalizationService: Localization service is disabled
+[2018.10.09-18.25.58:529][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.09-18.25.58:529][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.09-18.25.58:529][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.09-18.25.58:529][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.09-18.25.58:529][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-18.25.58:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-18.25.58:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-18.25.58:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/' took 0.23s
+[2018.10.09-18.25.58:786][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-18.25.58:786][  0]Cmd: MAP LOAD FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.09-18.25.58:788][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.09-18.25.58:791][  0]MapCheck: New page: Revisión del mapa
+[2018.10.09-18.25.58:791][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.09-18.26.06:456][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-18.26.08:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.09-18.26.08:195][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.09-18.26.08:299][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 103.622ms to complete.
+[2018.10.09-18.26.08:299][  0]LogFileHelpers: Loading map 'Minimal_Default' took 9.514
+[2018.10.09-18.26.08:852][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.26.08:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.26.08:897][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.26.08:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.26.08:947][  0]LogCollectionManager: Loaded 0 collections in 0.001890 seconds
+[2018.10.09-18.26.09:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Collections/' took 0.02s
+[2018.10.09-18.26.09:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Developers/Familia/Collections/' took 0.02s
+[2018.10.09-18.26.09:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Collections/' took 0.02s
+[2018.10.09-18.26.09:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.09-18.26.09:094][  0]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2572 classes and 603 folders.
+[2018.10.09-18.26.09:140][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.10.09-18.26.10:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.10.09-18.26.10:551][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.09-18.26.10:922][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-18.26.10:927][  0]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-18.26.11:003][  0]LogSlate: Took 0.020723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-18.26.11:627][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.09-18.26.12:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.09-18.26.12:043][  0]LogLoad: (Engine Initialization) Total time: 31.80 seconds
+[2018.10.09-18.26.12:043][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.09-18.26.12:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.09-18.26.12:209][  0]LogSlate: Took 0.019904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-18.26.12:738][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.09-18.26.12:757][  2]LogAssetRegistry: Asset discovery search completed in 21.8169 seconds
+[2018.10.09-18.26.12:761][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.09-18.26.12:761][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2018.10.09-18.44.16:987][478]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{55306891-01fb-40c6-bd7f-864b94e0f536} was removed. Shutting down audio device.
+[2018.10.09-18.44.16:987][478]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{55306891-01fb-40c6-bd7f-864b94e0f536} was removed. Shutting down audio device.
+[2018.10.09-18.44.16:987][478]LogInit: No audio devices found!
+[2018.10.09-18.44.19:980][487]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-18.54.42:087][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-18.54.42:088][344]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-18.54.42:136][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-18.54.42:137][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-18.54.42:170][344]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (09/10/2018 08:54:42)
+[2018.10.09-18.54.42:170][344]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-18.54.42:253][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082658s)
+[2018.10.09-18.54.42:257][344]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-18.54.42:258][344]LogPlayLevel: PIE: World Init took: (0.004726s)
+[2018.10.09-18.54.42:258][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.088044s)
+[2018.10.09-18.54.42:325][344]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-18.54.42:333][344]LogInit: FAudioDevice initialized.
+[2018.10.09-18.54.42:400][344]LogLoad: Game class is 'GameModeBase'
+[2018.10.09-18.54.42:429][344]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-13.54.42
+[2018.10.09-18.54.42:430][344]LogWorld: Bringing up level for play took: 0.013835
+[2018.10.09-18.54.42:543][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2018.10.09-18.54.42:577][344]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.62
+[2018.10.09-18.54.42:578][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-18.55.04:559][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-18.55.04:560][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.55.04:706][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-18.55.04:707][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-18.55.04:738][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-18.55.04:814][840]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.09-18.55.42:971][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-18.56.10:213][438]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-18.56.13:220][438]LogSlate: Window 'Escoger clase padre' being destroyed
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.Ranger:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.SKEL_Ranger_C' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.Ranger_C' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.Ranger:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.Ranger:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:413][889]LogMetaData: Removing '/Game/Blueprint/Ranger.Ranger:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/NewBlueprint.PackageMetaData'
+[2018.10.09-18.56.37:443][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.10.09-18.56.37:476][889]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/RangerC6B5349E465E82B3E6ED76AA16F76865.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.10.09-18.56.50:253][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.09-18.56.55:620][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-18.57.34:619][789]LogSlate: Took 0.083527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.10.09-18.57.34:664][790]LogSlate: Took 0.019584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.10.09-18.57.38:148][829]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.118562 seconds
+[2018.10.09-18.57.39:622][830]LogSlate: Took 0.001185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-18.57.39:631][830]LogSlate: Took 0.000721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-18.57.39:640][830]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-18.57.39:643][830]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-18.57.41:043][858]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.09-18.57.41:103][858]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.09-18.58.03:599][144]LogSlate: Took 0.001924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-18.58.06:815][192]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.09-18.58.25:564][238]LogSlate: Window 'Create GameMode Blueprint' being destroyed
+[2018.10.09-18.58.25:604][238]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Mododejuego/Modo1.Modo1
+[2018.10.09-18.58.27:636][238]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2018.10.09-18.58.34:138][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.051
+[2018.10.09-18.58.34:158][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mododejuego/Modo1] ([1] browsable assets)...
+[2018.10.09-18.58.34:159][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mododejuego/Modo1]
+[2018.10.09-18.58.34:184][257]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Modo1_Auto1F87070B243A3021CA4376EA06C8867D3.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Mododejuego/Modo1_Auto1.uasset'
+[2018.10.09-18.58.34:186][257]LogFileHelpers: Auto-saving content packages took 0.045
+[2018.10.09-18.59.03:320][507]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:220).
+[2018.10.09-18.59.03:569][511]LogSlate: Window 'Modo1*' being destroyed
+[2018.10.09-18.59.16:243][675]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.09-18.59.36:469][880]BlueprintLog: New page: Compile Modo1
+[2018.10.09-18.59.38:221][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mododejuego/Modo1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Mododejuego/Modo1.uasset" SILENT=true
+[2018.10.09-18.59.38:253][909]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Modo13DCF751642D3603CB588D7BBEF4015F3.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Mododejuego/Modo1.uasset'
+[2018.10.09-18.59.58:498][ 62]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.09-18.59.58:681][ 63]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoFaceTerreno
+[2018.10.09-18.59.58:681][ 63]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-18.59.58:681][ 63]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2018.10.09-18.59.58:681][ 63]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-18.59.58:741][ 64]LogTemp: BranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.09-18.59.59:014][ 64]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Familia\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.09-19.04.33:040][616]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.04.33:085][616]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.04.39:334][690]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/Ranger.Ranger
+[2018.10.09-19.04.50:441][769]LogSlate: Took 0.069814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.09-19.06.18:294][637]LogSlate: Took 0.069376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.09-19.10.46:436][521]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.068
+[2018.10.09-19.10.46:480][521]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Ranger] ([1] browsable assets)...
+[2018.10.09-19.10.46:480][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Ranger]
+[2018.10.09-19.10.46:480][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Ranger_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.10.09-19.10.46:610][521]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Ranger_Auto2D46CC11A4CC9F4BD727A6F8AE45FDB91.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Ranger_Auto2.uasset'
+[2018.10.09-19.10.46:613][521]LogFileHelpers: Auto-saving content packages took 0.176
+[2018.10.09-19.12.37:590][627]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.10.09-19.12.37:595][627]LogSlate: Took 0.003609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.10.09-19.12.41:958][965]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.086553 seconds
+[2018.10.09-19.12.43:212][966]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-19.12.43:214][966]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-19.12.43:215][966]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.09-19.12.43:220][966]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-19.12.43:231][966]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.09-19.13.09:376][183]LogSlate: Took 0.003563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.10.09-19.13.09:394][184]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.10.09-19.13.11:247][313]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.100644 seconds
+[2018.10.09-19.13.11:671][314]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-19.13.11:673][314]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-19.13.11:673][314]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.09-19.13.11:679][314]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-19.13.11:690][314]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.09-19.13.12:549][382]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.09-19.13.12:563][382]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.09-19.13.28:471][730]BlueprintLog: New page: Compile Ranger
+[2018.10.09-19.13.29:507][790]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-19.13.29:537][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.10.09-19.13.29:578][790]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Ranger3D0905184975B430573849888B24F50C.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.10.09-19.13.30:838][890]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-19.13.45:440][967]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.13.45:473][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.13.45:473][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.13.45:473][967]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:13:45 AM)
+[2018.10.09-19.13.45:474][967]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.13.45:495][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021144s)
+[2018.10.09-19.13.45:496][967]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.13.45:497][967]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2018.10.09-19.13.45:497][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023130s)
+[2018.10.09-19.13.45:703][967]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.13.45:719][967]LogInit: FAudioDevice initialized.
+[2018.10.09-19.13.46:156][967]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.13.46:167][967]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.13.46
+[2018.10.09-19.13.46:168][967]LogWorld: Bringing up level for play took: 0.010626
+[2018.10.09-19.13.46:201][967]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.09-19.13.46:202][967]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.13.46:203][967]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.13.46:203][967]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.13.46:204][967]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-0.000] for [Ranger_C]
+[2018.10.09-19.13.46:204][967]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Ranger_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.10.09-19.13.46:205][967]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.13.46:205][967]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.248
+[2018.10.09-19.13.46:206][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.13.53:828][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.13.53:829][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.13.53:905][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.13.53:906][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.13.53:954][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.13.54:005][161]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.09-19.13.57:896][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.09-19.14.06:100][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.14.08:769][382]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.10.09-19.14.45:391][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.14.48:063][115]Cmd: TRANSACTION UNDO
+[2018.10.09-19.14.48:063][115]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.14.58:306][303]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.00:820][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.15.20:885][719]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.21:443][730]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.21:443][730]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.22:096][741]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.22:096][741]LogEditorTransaction: Undo Set Location
+[2018.10.09-19.15.24:368][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.15.32:011][917]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.33:053][936]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.33:054][936]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.34:440][960]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.34:440][960]LogEditorTransaction: Undo Set Location
+[2018.10.09-19.15.39:144][ 42]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.39:212][ 42]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.39:776][ 52]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.44:927][146]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.44:927][146]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.45:431][153]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.45:431][153]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.45:889][163]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.45:890][163]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.46:451][175]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.46:451][175]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.46:900][185]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.46:900][185]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.47:315][194]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.47:315][194]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.47:863][206]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.47:863][206]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.48:329][216]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.48:330][216]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.48:795][226]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.48:795][226]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.09-19.15.49:262][234]Cmd: TRANSACTION UNDO
+[2018.10.09-19.15.49:262][234]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.09-19.15.50:648][262]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.15.52:366][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.15.56:437][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.15.56:476][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.15.56:476][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.15.56:476][381]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:15:56 AM)
+[2018.10.09-19.15.56:476][381]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.15.56:494][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017950s)
+[2018.10.09-19.15.56:495][381]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.15.56:496][381]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2018.10.09-19.15.56:496][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019455s)
+[2018.10.09-19.15.56:544][381]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.15.56:552][381]LogInit: FAudioDevice initialized.
+[2018.10.09-19.15.56:588][381]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.15.56:593][381]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.15.56
+[2018.10.09-19.15.56:593][381]LogWorld: Bringing up level for play took: 0.004710
+[2018.10.09-19.15.56:607][381]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.15.56:607][381]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.15.56:607][381]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.15.57:010][381]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.15.57:010][381]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.053
+[2018.10.09-19.15.57:011][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.16.18:755][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.16.18:755][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.16.18:841][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.16.18:842][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.16.18:910][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.16.18:987][863]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.09-19.16.20:199][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.16.24:493][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.16.25:669][980]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.09-19.16.25:996][981]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoFaceTerreno
+[2018.10.09-19.16.25:996][981]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-19.16.25:996][981]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2018.10.09-19.16.25:996][981]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-19.16.25:996][981]LogTemp: BranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.09-19.16.25:996][981]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Familia\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.09-19.17.26:285][ 25]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.17.26:332][ 25]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.17.26:957][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.17.27:094][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.17.27:128][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.17.27:128][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.17.27:128][ 41]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:17:27 AM)
+[2018.10.09-19.17.27:128][ 41]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.17.27:146][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017609s)
+[2018.10.09-19.17.27:147][ 41]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.17.27:147][ 41]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2018.10.09-19.17.27:147][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018965s)
+[2018.10.09-19.17.27:197][ 41]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.17.27:204][ 41]LogInit: FAudioDevice initialized.
+[2018.10.09-19.17.27:240][ 41]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.17.27:245][ 41]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.17.27
+[2018.10.09-19.17.27:246][ 41]LogWorld: Bringing up level for play took: 0.004756
+[2018.10.09-19.17.27:259][ 41]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.17.27:259][ 41]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.17.27:259][ 41]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.17.27:260][ 41]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.17.27:260][ 41]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.697
+[2018.10.09-19.17.27:261][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.17.42:026][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.17.42:027][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.17.42:107][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.17.42:107][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.17.42:169][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.17.42:199][355]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.09-19.17.43:144][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.17.46:278][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.17.47:461][446]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.09-19.17.47:572][447]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoFaceTerreno
+[2018.10.09-19.17.47:573][447]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-19.17.47:573][447]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2018.10.09-19.17.47:573][447]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.09-19.17.47:573][447]LogTemp: BranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-DDT5E5J/E/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.09-19.17.47:605][448]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Familia\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.09-19.18.12:890][971]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.18.12:929][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.18.12:929][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.18.12:930][971]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:18:12 AM)
+[2018.10.09-19.18.12:930][971]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.18.12:947][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017007s)
+[2018.10.09-19.18.12:948][971]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.18.12:949][971]LogPlayLevel: PIE: World Init took: (0.001647s)
+[2018.10.09-19.18.12:949][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018897s)
+[2018.10.09-19.18.13:001][971]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.18.13:009][971]LogInit: FAudioDevice initialized.
+[2018.10.09-19.18.13:047][971]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.18.13:051][971]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.18.13
+[2018.10.09-19.18.13:052][971]LogWorld: Bringing up level for play took: 0.004832
+[2018.10.09-19.18.13:066][971]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.18.13:066][971]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.18.13:066][971]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.18.13:067][971]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.18.13:067][971]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.11
+[2018.10.09-19.18.13:068][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.18.19:471][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.18.19:472][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.18.19:567][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.18.19:567][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.18.19:635][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.18.19:671][102]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.09-19.18.21:090][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.18.21:141][127]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.18.21:203][127]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.09-19.18.21:726][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.09-19.18.23:868][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.18.23:969][167]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.18.24:010][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.18.24:010][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.18.24:010][167]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:18:24 AM)
+[2018.10.09-19.18.24:010][167]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.18.24:034][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023415s)
+[2018.10.09-19.18.24:035][167]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.18.24:035][167]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2018.10.09-19.18.24:035][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.025110s)
+[2018.10.09-19.18.24:086][167]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.18.24:094][167]LogInit: FAudioDevice initialized.
+[2018.10.09-19.18.24:132][167]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.18.24:139][167]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.18.24
+[2018.10.09-19.18.24:139][167]LogWorld: Bringing up level for play took: 0.006234
+[2018.10.09-19.18.24:153][167]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.18.24:153][167]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.18.24:153][167]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.18.24:154][167]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.18.24:154][167]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.197
+[2018.10.09-19.18.24:155][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.19.08:265][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.19.08:266][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.19.08:351][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.19.08:352][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.19.08:413][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.19.08:507][136]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.09-19.19.10:551][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.19.11:012][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.19.12:075][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.19.15:776][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.19.17:171][275]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Minimal_Default8A80E0A94DA475B34DFC2282AE4D9E69.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.09-19.19.17:212][275]LogFileHelpers: Saving map 'Minimal_Default' took 1.429
+[2018.10.09-19.19.19:168][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Ranger" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset" SILENT=true
+[2018.10.09-19.19.19:209][392]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/RangerF8C329F24353EA9169712B901D74C4F7.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Ranger.uasset'
+[2018.10.09-19.19.21:490][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mododejuego/Modo1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Mododejuego/Modo1.uasset" SILENT=true
+[2018.10.09-19.19.21:542][521]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Modo17489072642FEBCCADBB7D487E44061EA.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Mododejuego/Modo1.uasset'
+[2018.10.09-19.19.32:279][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.09-19.27.16:060][473]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Documents\maya\projects\default\scenes\Cueva.fbx)
+[2018.10.09-19.27.16:226][473]LogFbx: Loading FBX Scene from C:\Users\Familia\Documents\maya\projects\default\scenes\Cueva.fbx
+[2018.10.09-19.27.16:269][473]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.09-19.27.16:357][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.27.22:538][473]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.09-19.27.25:011][473]LogLinker: Can't find file '/Game/Blueprint/Cueva_text_COLOR'
+[2018.10.09-19.27.25:012][473]LogLinker: Can't find file '/Game/Blueprint/Cueva_text_COLOR'
+[2018.10.09-19.27.25:192][473]LogTexture: Display: Building textures: Cueva_text_COLOR (AutoDXT, 2048X2048)
+[2018.10.09-19.27.32:463][473]LogLinker: Can't find file '/Game/Blueprint/Cueva_text_NRM'
+[2018.10.09-19.27.32:463][473]LogLinker: Can't find file '/Game/Blueprint/Cueva_text_NRM'
+[2018.10.09-19.27.32:608][473]LogTexture: Display: Building textures: Cueva_text_NRM (BC5, 2048X2048)
+[2018.10.09-19.27.33:501][473]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2018.10.09-19.27.33:841][473]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.09-19.27.33:841][473]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.09-19.27.33:841][473]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.09-19.27.33:868][473]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.10.09-19.27.33:949][473]LogFbx: Warning: Triangulating static mesh pSphere3
+[2018.10.09-19.27.35:775][473]LogStaticMesh: Building static mesh Cueva...
+[2018.10.09-19.27.36:444][473]LogStaticMesh: Built static mesh [0.67s] /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.27.36:845][473]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.10.09-19.27.40:452][534]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.09-19.27.41:415][552]LogSlate: Window 'Message Log' being destroyed
+[2018.10.09-19.27.41:472][552]LogSlate: Window 'Message Log' being destroyed
+[2018.10.09-19.27.49:774][675]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.09-19.27.51:073][702]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.09-19.27.53:133][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.27.53:504][740]LogActorFactory: Actor Factory created Cueva
+[2018.10.09-19.27.54:074][749]LogActorFactory: Actor Factory created Cueva
+[2018.10.09-19.28.20:727][295]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1cbc933bfa0 [can pipeline])
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 1 (Re-using existing connection! (#30) with host datarouter.ol.epicgames.com)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.202.184.141) port 443 (#30))
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 3 (upload completely sent off: 1340 out of 1340 bytes)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 6 (Closing connection 30)
+[2018.10.09-19.28.44:724][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDB0EC654-4E99-CBA0-0388-71ABC739BD3A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=f231cf9243e9d0e5f3eb1da83ece8f8e%7C7a4ecb216ec4484ea57c194a37756d79%7C97b9e824-68fc-499d-8da3-561593c1faa2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.10.09-19.28.44:725][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.10.09-19.28.44:725][724]LogHttp: Warning: 000001CBAF579E40: libcurl info message cache 9 (Closing connection 31)
+[2018.10.09-19.29.17:742][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Minimal_Default_Auto3CBF2B8174D3D3B36616A04ABEB212C7F.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2018.10.09-19.29.17:760][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.113
+[2018.10.09-19.29.17:760][826]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.113
+[2018.10.09-19.29.17:778][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Cueva] ([1] browsable assets)...
+[2018.10.09-19.29.17:941][826]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprint/Cueva.Cueva]
+[2018.10.09-19.29.17:941][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Cueva]
+[2018.10.09-19.29.17:941][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Cueva" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.10.09-19.29.18:059][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_Auto37B84EEEB48E012D4242B798908861657.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_Auto3.uasset'
+[2018.10.09-19.29.18:062][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/phong1] ([1] browsable assets)...
+[2018.10.09-19.29.18:133][826]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprint/phong1.phong1]
+[2018.10.09-19.29.18:133][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/phong1]
+[2018.10.09-19.29.18:133][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/phong1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/phong1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.10.09-19.29.18:261][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/phong1_Auto36446735649B8F0BC17839F88D570A38F.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/phong1_Auto3.uasset'
+[2018.10.09-19.29.18:265][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Cueva_text_COLOR] ([1] browsable assets)...
+[2018.10.09-19.29.18:290][826]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprint/Cueva_text_COLOR.Cueva_text_COLOR]
+[2018.10.09-19.29.18:290][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Cueva_text_COLOR]
+[2018.10.09-19.29.19:306][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_COLOR_Auto3A3AF2ADA4EAADFBEED1A1B9FE1D24F6F.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_text_COLOR_Auto3.uasset'
+[2018.10.09-19.29.19:310][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Cueva_text_NRM] ([1] browsable assets)...
+[2018.10.09-19.29.19:328][826]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprint/Cueva_text_NRM.Cueva_text_NRM]
+[2018.10.09-19.29.19:328][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Cueva_text_NRM]
+[2018.10.09-19.29.19:583][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_NRM_Auto35E79E0EC42F93BDA24DE9681FE1D5D6E.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_text_NRM_Auto3.uasset'
+[2018.10.09-19.29.19:589][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/lambert1] ([1] browsable assets)...
+[2018.10.09-19.29.19:676][826]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprint/lambert1.lambert1]
+[2018.10.09-19.29.19:676][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/lambert1]
+[2018.10.09-19.29.19:745][826]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/lambert1_Auto3EDE617F04B89EF8AEC7C2DAF0B84EA35.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/lambert1_Auto3.uasset'
+[2018.10.09-19.29.19:786][826]LogFileHelpers: Auto-saving content packages took 2.010
+[2018.10.09-19.33.13:500][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.33.13:606][566]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.33.13:656][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.33.13:656][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.33.13:656][566]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:33:13 AM)
+[2018.10.09-19.33.13:657][566]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.33.13:714][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057049s)
+[2018.10.09-19.33.13:716][566]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.33.13:718][566]LogPlayLevel: PIE: World Init took: (0.003822s)
+[2018.10.09-19.33.13:718][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.061384s)
+[2018.10.09-19.33.13:777][566]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.33.13:786][566]LogInit: FAudioDevice initialized.
+[2018.10.09-19.33.13:825][566]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.33.13:831][566]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.33.13
+[2018.10.09-19.33.13:832][566]LogWorld: Bringing up level for play took: 0.006165
+[2018.10.09-19.33.13:846][566]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.33.13:846][566]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.33.13:846][566]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.33.13:848][566]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.33.13:848][566]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.109
+[2018.10.09-19.33.13:848][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.33.31:391][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.33.31:392][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.33.31:474][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.33.31:475][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.33.31:538][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.33.31:784][945]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.09-19.33.33:043][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.33.36:202][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.33.36:460][ 24]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.33.44:607][ 70]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:50).
+[2018.10.09-19.33.44:971][ 72]LogSlate: Window 'Cueva*' being destroyed
+[2018.10.09-19.33.47:817][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.33.51:249][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.35.24:464][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.36.15:894][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.36.25:158][536]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Documents/maya/projects/default/scenes/Cueva.fbx]
+[2018.10.09-19.36.25:229][536]LogFbx: Loading FBX Scene from C:/Users/Familia/Documents/maya/projects/default/scenes/Cueva.fbx
+[2018.10.09-19.36.25:252][536]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.09-19.36.25:279][536]LogFbx: Warning: Triangulating static mesh pSphere3
+[2018.10.09-19.36.25:676][536]LogStaticMesh: Building static mesh Cueva...
+[2018.10.09-19.36.25:774][536]LogStaticMesh: Built static mesh [0.10s] /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.36.26:090][536]LogEditorFactories: -- imported successfully
+[2018.10.09-19.36.26:153][536]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.10.09-19.36.46:874][874]LogStaticMesh: Building static mesh Cueva...
+[2018.10.09-19.36.46:966][874]LogStaticMesh: Built static mesh [0.09s] /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.36.52:038][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.37.08:378][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.37.14:779][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.37.30:272][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.37.45:647][459]Cmd: TRANSACTION UNDO
+[2018.10.09-19.37.45:647][459]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.09-19.38.04:467][637]Cmd: TRANSACTION UNDO
+[2018.10.09-19.38.04:467][637]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.09-19.38.04:616][637]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
+[2018.10.09-19.38.09:161][680]Cmd: TRANSACTION UNDO
+[2018.10.09-19.38.09:161][680]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.09-19.38.31:322][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.38.41:421][ 17]LogStaticMesh: Building static mesh Cueva...
+[2018.10.09-19.38.41:516][ 17]LogStaticMesh: Built static mesh [0.10s] /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.38.47:522][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Cueva" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Cueva.uasset" SILENT=true
+[2018.10.09-19.38.48:103][100]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva8DC1275043E2D16F12A674978431C839.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Cueva.uasset'
+[2018.10.09-19.38.48:604][109]LogEditorFactories: Performing atomic reimport of [C:/Users/Familia/Documents/maya/projects/default/scenes/Cueva.fbx]
+[2018.10.09-19.38.48:789][109]LogFbx: Loading FBX Scene from C:/Users/Familia/Documents/maya/projects/default/scenes/Cueva.fbx
+[2018.10.09-19.38.48:817][109]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.09-19.38.48:835][109]LogFbx: Warning: Triangulating static mesh pSphere3
+[2018.10.09-19.38.49:977][109]LogStaticMesh: Building static mesh Cueva...
+[2018.10.09-19.38.50:161][109]LogStaticMesh: Built static mesh [0.93s] /Game/Blueprint/Cueva.Cueva
+[2018.10.09-19.38.50:216][109]LogEditorFactories: -- imported successfully
+[2018.10.09-19.38.50:223][109]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.10.09-19.38.59:442][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.39.15:697][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.39.18:764][369]Cmd: TRANSACTION UNDO
+[2018.10.09-19.39.18:764][369]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.10.09-19.39.18:896][369]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
+[2018.10.09-19.40.31:573][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.41.13:657][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.41.13:657][470]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.41.14:344][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.41.14:344][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.41.14:344][470]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:41:14 AM)
+[2018.10.09-19.41.14:345][470]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.41.14:380][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035219s)
+[2018.10.09-19.41.14:382][470]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.41.14:383][470]LogPlayLevel: PIE: World Init took: (0.002522s)
+[2018.10.09-19.41.14:383][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.038194s)
+[2018.10.09-19.41.14:446][470]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.41.14:454][470]LogInit: FAudioDevice initialized.
+[2018.10.09-19.41.14:489][470]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.41.14:494][470]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.41.14
+[2018.10.09-19.41.14:495][470]LogWorld: Bringing up level for play took: 0.004763
+[2018.10.09-19.41.14:508][470]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.41.14:508][470]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.41.14:508][470]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.41.14:509][470]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.41.14:509][470]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.552
+[2018.10.09-19.41.14:510][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.41.28:042][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.41.28:043][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.41.28:122][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.41.28:123][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.41.28:183][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.41.28:287][753]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.09-19.41.28:841][755]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.09-19.41.54:732][831]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
+[2018.10.09-19.41.55:881][831]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Minimal_Default_Auto41109304845C67489690755B90DB2F025.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2018.10.09-19.41.55:888][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.490
+[2018.10.09-19.41.55:888][831]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.490
+[2018.10.09-19.41.55:893][831]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Cueva] ([1] browsable assets)...
+[2018.10.09-19.41.56:001][831]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprint/Cueva.Cueva]
+[2018.10.09-19.41.56:001][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Cueva]
+[2018.10.09-19.41.56:001][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Cueva" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.10.09-19.41.56:064][831]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_Auto4C360D80C4868E6D04BD5278D17A1876F.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Cueva_Auto4.uasset'
+[2018.10.09-19.41.56:065][831]LogFileHelpers: Auto-saving content packages took 0.173
+[2018.10.09-19.43.06:104][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.43.06:623][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.43.08:644][ 79]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.43.10:128][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.09-19.43.15:584][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.43.34:634][279]LogMetaData: Removing '/Game/Cueva.Cueva' ref from Metadata '/Game/Blueprint/Cueva.PackageMetaData'
+[2018.10.09-19.43.34:853][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva.uasset" SILENT=true
+[2018.10.09-19.43.34:893][279]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva0607841D4D752A778F815E82C68569D1.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva.uasset'
+[2018.10.09-19.43.34:951][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva_text_COLOR" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva_text_COLOR.uasset" SILENT=true
+[2018.10.09-19.43.35:790][279]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_COLORC7E414394233E128BABE3395F7D5993A.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva_text_COLOR.uasset'
+[2018.10.09-19.43.35:831][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva_text_NRM" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva_text_NRM.uasset" SILENT=true
+[2018.10.09-19.43.37:792][279]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_NRM0ABFE4AA4E9134B51ADEDB97093036C5.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva_text_NRM.uasset'
+[2018.10.09-19.43.37:852][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/lambert1.uasset" SILENT=true
+[2018.10.09-19.43.37:875][279]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/lambert11EACCAF740FB18072FF6FBBA4BCAA991.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/lambert1.uasset'
+[2018.10.09-19.43.37:925][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/phong1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/phong1.uasset" SILENT=true
+[2018.10.09-19.43.39:041][279]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/phong1F554D8904BA4314D2376C0B0A196B513.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/phong1.uasset'
+[2018.10.09-19.44.01:796][441]LogMetaData: Removing '/Game/Cueva/Cueva.Cueva' ref from Metadata '/Game/Cueva.PackageMetaData'
+[2018.10.09-19.44.01:958][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva/Cueva" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva.uasset" SILENT=true
+[2018.10.09-19.44.01:988][441]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva540F0CCB485481BF542B9B82008FB2E4.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva.uasset'
+[2018.10.09-19.44.02:012][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva/Cueva_text_COLOR" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva_text_COLOR.uasset" SILENT=true
+[2018.10.09-19.44.02:382][441]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_COLOR367F53B148D5BAA504601E81C7F01768.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva_text_COLOR.uasset'
+[2018.10.09-19.44.02:403][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva/Cueva_text_NRM" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva_text_NRM.uasset" SILENT=true
+[2018.10.09-19.44.03:583][441]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_NRMFBED654D4C5DEEA8F523199D64232145.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/Cueva_text_NRM.uasset'
+[2018.10.09-19.44.03:633][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva/lambert1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/lambert1.uasset" SILENT=true
+[2018.10.09-19.44.04:019][441]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/lambert18146986A4C8C4AD526EECE869A25091A.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/lambert1.uasset'
+[2018.10.09-19.44.04:074][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cueva/phong1" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/phong1.uasset" SILENT=true
+[2018.10.09-19.44.04:101][441]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/phong12E093B294B63616C2FED03AA44CAE8F7.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Cueva/phong1.uasset'
+[2018.10.09-19.44.29:451][647]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Familia\Documents\maya\projects\default\scenes\Tunel.fbx)
+[2018.10.09-19.44.29:482][647]LogFbx: Loading FBX Scene from C:\Users\Familia\Documents\maya\projects\default\scenes\Tunel.fbx
+[2018.10.09-19.44.29:496][647]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.09-19.44.35:807][647]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.09-19.44.36:281][647]LogLinker: Can't find file '/Game/Blueprint/Tunel/Cueva_text_COLOR'
+[2018.10.09-19.44.36:282][647]LogLinker: Can't find file '/Game/Blueprint/Tunel/Cueva_text_COLOR'
+[2018.10.09-19.44.36:503][647]LogTexture: Display: Building textures: Cueva_text_COLOR (AutoDXT, 2048X2048)
+[2018.10.09-19.44.44:107][647]LogLinker: Can't find file '/Game/Blueprint/Tunel/Cueva_text_NRM'
+[2018.10.09-19.44.44:108][647]LogLinker: Can't find file '/Game/Blueprint/Tunel/Cueva_text_NRM'
+[2018.10.09-19.44.44:289][647]LogTexture: Display: Building textures: Cueva_text_NRM (BC5, 2048X2048)
+[2018.10.09-19.44.46:513][647]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2018.10.09-19.44.46:593][647]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.09-19.44.46:593][647]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.09-19.44.46:593][647]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.09-19.44.46:593][647]LogFbx: Warning: Triangulating static mesh pSphere2
+[2018.10.09-19.44.47:113][647]LogStaticMesh: Building static mesh Tunel...
+[2018.10.09-19.44.47:191][647]LogStaticMesh: Built static mesh [0.26s] /Game/Blueprint/Tunel/Tunel.Tunel
+[2018.10.09-19.44.47:291][647]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.10.09-19.44.51:404][682]LogSlate: Window 'Message Log' being destroyed
+[2018.10.09-19.44.51:519][682]LogSlate: Window 'Message Log' being destroyed
+[2018.10.09-19.44.51:854][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.09-19.45.00:100][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.45.05:346][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.45.05:725][799]LogActorFactory: Actor Factory created Tunel
+[2018.10.09-19.45.09:223][831]LogActorFactory: Actor Factory created Tunel
+[2018.10.09-19.45.11:991][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.45.12:367][859]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Blueprint/Tunel/Tunel.Tunel
+[2018.10.09-19.45.43:507][120]LogStaticMesh: Building static mesh Tunel...
+[2018.10.09-19.45.43:586][120]LogStaticMesh: Built static mesh [0.08s] /Game/Blueprint/Tunel/Tunel.Tunel
+[2018.10.09-19.48.34:481][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.48.34:481][491]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.48.34:766][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.48.34:766][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.48.34:767][491]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:48:34 AM)
+[2018.10.09-19.48.34:767][491]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.48.34:802][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034989s)
+[2018.10.09-19.48.34:804][491]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.48.34:805][491]LogPlayLevel: PIE: World Init took: (0.002387s)
+[2018.10.09-19.48.34:805][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.037897s)
+[2018.10.09-19.48.34:854][491]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.48.34:862][491]LogInit: FAudioDevice initialized.
+[2018.10.09-19.48.34:895][491]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.48.34:901][491]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.48.34
+[2018.10.09-19.48.34:901][491]LogWorld: Bringing up level for play took: 0.005133
+[2018.10.09-19.48.34:915][491]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.48.34:915][491]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.48.34:915][491]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.48.34:917][491]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.48.34:917][491]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.96
+[2018.10.09-19.48.34:917][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.48.47:441][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.48.47:441][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.48.47:530][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.48.47:530][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.48.47:593][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.48.47:693][746]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.09-19.48.55:966][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.48.57:483][785]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.49.09:656][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.49.19:387][907]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.49.20:701][914]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.09-19.49.24:438][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.49.25:210][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.50.03:402][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.50.03:575][163]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.50.03:628][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.03:628][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.50.03:628][163]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:50:03 AM)
+[2018.10.09-19.50.03:629][163]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.50.03:647][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017921s)
+[2018.10.09-19.50.03:647][163]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.50.03:648][163]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2018.10.09-19.50.03:648][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019236s)
+[2018.10.09-19.50.03:691][163]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.50.03:699][163]LogInit: FAudioDevice initialized.
+[2018.10.09-19.50.03:788][163]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.50.03:800][163]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.50.03
+[2018.10.09-19.50.03:801][163]LogWorld: Bringing up level for play took: 0.010865
+[2018.10.09-19.50.03:816][163]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.50.03:816][163]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.50.03:816][163]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.50.03:818][163]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.50.03:819][163]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.138
+[2018.10.09-19.50.03:819][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.13:894][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.13:894][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.50.13:981][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.50.13:982][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.14:045][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.50.14:128][366]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.09-19.50.20:447][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.50.42:981][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.50.42:983][540]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.50.43:007][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.43:007][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.50.43:008][540]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:50:43 AM)
+[2018.10.09-19.50.43:008][540]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.50.43:024][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016035s)
+[2018.10.09-19.50.43:026][540]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.50.43:026][540]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2018.10.09-19.50.43:026][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017809s)
+[2018.10.09-19.50.43:070][540]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.50.43:077][540]LogInit: FAudioDevice initialized.
+[2018.10.09-19.50.43:109][540]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.50.43:115][540]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.50.43
+[2018.10.09-19.50.43:116][540]LogWorld: Bringing up level for play took: 0.006118
+[2018.10.09-19.50.43:129][540]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.50.43:129][540]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.50.43:129][540]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.50.43:130][540]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.50.43:130][540]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.827
+[2018.10.09-19.50.43:131][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.50:432][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.50:433][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.50.50:516][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.50.50:517][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.50.50:570][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.50.50:618][690]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.09-19.50.52:009][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.50.52:560][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.51.20:449][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.51.20:450][865]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.51.20:477][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.51.20:477][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.51.20:478][865]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:51:20 AM)
+[2018.10.09-19.51.20:478][865]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.51.20:495][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016674s)
+[2018.10.09-19.51.20:496][865]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.51.20:496][865]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2018.10.09-19.51.20:496][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018244s)
+[2018.10.09-19.51.20:539][865]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.51.20:547][865]LogInit: FAudioDevice initialized.
+[2018.10.09-19.51.20:658][865]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.51.20:666][865]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.51.20
+[2018.10.09-19.51.20:667][865]LogWorld: Bringing up level for play took: 0.007360
+[2018.10.09-19.51.20:680][865]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.51.20:680][865]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.51.20:680][865]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.51.20:682][865]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.51.20:682][865]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.725
+[2018.10.09-19.51.20:683][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.51.31:158][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.51.31:159][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.51.31:250][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.51.31:251][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.51.31:325][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.51.31:384][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.09-19.51.33:235][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.51.40:682][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.51.50:833][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.52.27:119][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.52.35:882][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.52.40:428][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Tunel/Tunel" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset" SILENT=true
+[2018.10.09-19.52.40:474][654]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Tunel09CF7A97453C4A8F8222CD89C01AF672.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset'
+[2018.10.09-19.52.41:684][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.52.44:574][685]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.52.44:615][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.52.44:615][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.52.44:615][685]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:52:44 AM)
+[2018.10.09-19.52.44:615][685]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.52.44:635][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019656s)
+[2018.10.09-19.52.44:636][685]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.52.44:636][685]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2018.10.09-19.52.44:636][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021121s)
+[2018.10.09-19.52.44:684][685]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.52.44:692][685]LogInit: FAudioDevice initialized.
+[2018.10.09-19.52.44:767][685]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.52.44:772][685]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.52.44
+[2018.10.09-19.52.44:772][685]LogWorld: Bringing up level for play took: 0.004797
+[2018.10.09-19.52.44:786][685]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.52.44:786][685]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.52.44:786][685]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.52.44:788][685]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.52.44:788][685]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.832
+[2018.10.09-19.52.44:788][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.01:659][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.01:660][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.53.01:747][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.53.01:748][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.01:805][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.53.01:891][  8]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.09-19.53.03:408][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.53.19:723][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.53.19:887][116]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.53.19:926][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.19:926][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.53.19:926][116]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:53:19 AM)
+[2018.10.09-19.53.19:926][116]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.53.19:953][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026946s)
+[2018.10.09-19.53.19:955][116]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.53.19:955][116]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2018.10.09-19.53.19:955][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028739s)
+[2018.10.09-19.53.20:003][116]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.53.20:011][116]LogInit: FAudioDevice initialized.
+[2018.10.09-19.53.20:086][116]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.53.20:097][116]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.53.20
+[2018.10.09-19.53.20:098][116]LogWorld: Bringing up level for play took: 0.010024
+[2018.10.09-19.53.20:113][116]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.53.20:113][116]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.53.20:113][116]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.53.20:115][116]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.53.20:115][116]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.158
+[2018.10.09-19.53.20:116][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.36:228][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.36:229][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.53.36:314][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.53.36:315][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.53.36:377][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.53.36:666][435]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.10.09-19.53.37:666][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.53.45:155][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.53.54:463][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.54.11:915][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Tunel/Tunel" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset" SILENT=true
+[2018.10.09-19.54.11:948][728]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Tunel8B6ABD32412B0CBA459A4E89FFFF9CE7.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset'
+[2018.10.09-19.54.14:933][753]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.54.14:957][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.54.14:957][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.54.14:957][753]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:54:14 AM)
+[2018.10.09-19.54.14:957][753]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.54.14:980][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022607s)
+[2018.10.09-19.54.14:981][753]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.54.14:981][753]LogPlayLevel: PIE: World Init took: (0.001648s)
+[2018.10.09-19.54.14:982][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024556s)
+[2018.10.09-19.54.15:032][753]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.54.15:040][753]LogInit: FAudioDevice initialized.
+[2018.10.09-19.54.15:137][753]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.54.15:148][753]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.54.15
+[2018.10.09-19.54.15:149][753]LogWorld: Bringing up level for play took: 0.010458
+[2018.10.09-19.54.15:164][753]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.54.15:164][753]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.54.15:164][753]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.54.15:166][753]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.54.15:166][753]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.209
+[2018.10.09-19.54.15:167][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.54.24:279][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.54.24:280][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.54.24:364][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.54.24:365][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.54.24:425][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.54.24:507][934]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.09-19.54.31:836][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.54.33:128][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cueva)
+[2018.10.09-19.54.33:646][982]Cmd: DELETE
+[2018.10.09-19.54.33:646][982]Cmd: ACTOR DELETE
+[2018.10.09-19.54.34:336][982]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.09-19.54.34:421][982]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2018.10.09-19.54.58:418][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.55.02:911][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.55.08:491][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.55.12:738][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.55.13:029][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Tunel/Tunel" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset" SILENT=true
+[2018.10.09-19.55.13:045][249]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Tunel8D00158448E980DB043E95A497F8F5BB.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset'
+[2018.10.09-19.55.14:687][263]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.55.27:918][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Tunel/Tunel" FILE="C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset" SILENT=true
+[2018.10.09-19.55.27:942][368]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Tunel139119F74B8CEA575D89AEA2F3C76CB0.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Content/Blueprint/Tunel/Tunel.uasset'
+[2018.10.09-19.55.28:740][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.55.30:482][386]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.55.30:505][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.55.30:505][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.55.30:506][386]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:55:30 AM)
+[2018.10.09-19.55.30:506][386]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.55.30:524][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018095s)
+[2018.10.09-19.55.30:526][386]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.55.30:526][386]LogPlayLevel: PIE: World Init took: (0.001912s)
+[2018.10.09-19.55.30:526][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020250s)
+[2018.10.09-19.55.30:572][386]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.55.30:580][386]LogInit: FAudioDevice initialized.
+[2018.10.09-19.55.30:617][386]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.55.30:622][386]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.55.30
+[2018.10.09-19.55.30:623][386]LogWorld: Bringing up level for play took: 0.005008
+[2018.10.09-19.55.30:636][386]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.55.30:636][386]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.55.30:636][386]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.55.30:637][386]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.55.30:638][386]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.681
+[2018.10.09-19.55.30:638][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.55.40:513][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.55.40:514][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.55.40:604][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.55.40:605][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.55.40:666][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.55.40:771][585]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.09-19.55.42:722][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.55.57:720][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.56.06:459][734]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.56.26:618][861]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-19.56.26:666][861]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.56.26:666][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-19.56.26:666][861]PIE: New page: PIE session: Minimal_Default (Oct 9, 2018, 9:56:26 AM)
+[2018.10.09-19.56.26:666][861]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.09-19.56.26:689][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022477s)
+[2018.10.09-19.56.26:690][861]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.09-19.56.26:690][861]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.10.09-19.56.26:690][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024050s)
+[2018.10.09-19.56.26:735][861]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-19.56.26:743][861]LogInit: FAudioDevice initialized.
+[2018.10.09-19.56.26:784][861]LogLoad: Game class is 'Modo1_C'
+[2018.10.09-19.56.26:798][861]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.09-14.56.26
+[2018.10.09-19.56.26:799][861]LogWorld: Bringing up level for play took: 0.013198
+[2018.10.09-19.56.26:814][861]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.56.26:814][861]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-19.56.26:814][861]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.56.26:816][861]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-19.56.26:816][861]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.86
+[2018.10.09-19.56.26:817][861]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.56.36:574][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.56.36:575][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.56.36:665][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-19.56.36:666][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.09-19.56.36:727][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-19.56.36:785][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.09-19.56.44:727][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.56.52:773][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-19.57.20:400][240]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Minimal_Default_Auto592A69B884EE003CECD1793B3D1AEA39E.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2018.10.09-19.57.20:406][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.447
+[2018.10.09-19.57.20:406][240]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.447
+[2018.10.09-19.57.20:409][240]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Tunel/phong1] ([1] browsable assets)...
+[2018.10.09-19.57.20:455][240]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprint/Tunel/phong1.phong1]
+[2018.10.09-19.57.20:455][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Tunel/phong1]
+[2018.10.09-19.57.20:499][240]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/phong1_Auto54370341C4A3C3F0324AE3CB99BB522C6.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Tunel/phong1_Auto5.uasset'
+[2018.10.09-19.57.20:502][240]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Tunel/Cueva_text_COLOR] ([1] browsable assets)...
+[2018.10.09-19.57.20:517][240]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprint/Tunel/Cueva_text_COLOR.Cueva_text_COLOR]
+[2018.10.09-19.57.20:517][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Tunel/Cueva_text_COLOR]
+[2018.10.09-19.57.20:559][240]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_COLOR_Auto5FE5768E4446962C8FD9239A2C1E560CC.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Tunel/Cueva_text_COLOR_Auto5.uasset'
+[2018.10.09-19.57.20:562][240]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Tunel/Cueva_text_NRM] ([1] browsable assets)...
+[2018.10.09-19.57.20:586][240]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprint/Tunel/Cueva_text_NRM.Cueva_text_NRM]
+[2018.10.09-19.57.20:586][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Tunel/Cueva_text_NRM]
+[2018.10.09-19.57.20:638][240]LogSavePackage: Moving 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Cueva_text_NRM_Auto52C94CDCF4B87A60A72DF4D90A18872EA.tmp' to 'C:/Users/Familia/Documents/Unreal Projects/ProyectoFaceTerreno/Saved/Autosaves/Game/Blueprint/Tunel/Cueva_text_NRM_Auto5.uasset'
+[2018.10.09-19.57.20:655][240]LogFileHelpers: Auto-saving content packages took 0.247
+[2018.10.09-19.59.10:361][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunel)
+[2018.10.09-19.59.11:148][580]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tunel)
+[2018.10.09-19.59.11:757][580]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-19.59.13:412][591]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2018.10.09-19.59.42:987][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-20.00.45:997][449]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.10.09-20.00.46:001][449]LogSlate: Took 0.003466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.10.09-20.00.48:228][480]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.090233 seconds
+[2018.10.09-20.00.50:141][481]LogSlate: Window 'Preferencias del editor' being destroyed
+[2018.10.09-20.00.50:147][481]LogSlate: Window 'Preferencias del editor' being destroyed
+[2018.10.09-20.00.50:462][481]LogSlate: Took 0.001107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-20.00.50:470][481]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-20.00.55:669][563]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-20.00.55:672][563]LogSlate: Took 0.000574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-20.00.55:709][565]Debuggg: 
